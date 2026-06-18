@@ -1,4 +1,4 @@
-# Foundation-Models-for-Visualization
+# Foundation Models for Visualization: A Survey and Empirical Study on Understanding, Generation, and Interaction
 
 A curated paper library for **Foundation Models for Visualization**, covering papers in three major areas:
 
