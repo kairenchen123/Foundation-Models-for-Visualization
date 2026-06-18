@@ -1,0 +1,834 @@
+标题,论文链接,作者,发表时间,代码链接
+A Pragmatics-based Approach to Proactive Digital Assistants for Data Exploration,https://dl.acm.org/doi/full/10.1145/3719160.3736632,"Roderick S Tabalba Jr. - 1.University of Hawaiʻi at Mānoa, 2.Laboratory for Advanced Visualization and Applications
+Christopher J Lee - 1.University of Hawaiʻi at Mānoa
+Giorgio Tran - 1.University of Hawaiʻi at Mānoa, 2.Laboratory for Advanced Visualization and Applications
+Nurit Kirshenbaum - 1.University of Hawaiʻi at Mānoa, 3.Information and Computer Science
+Jason Leigh - 1.University of Hawaiʻi at Mānoa, 3.Information and Computer Science, 4.Natural Science/LAVA",2025,
+A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation,https://dl.acm.org/doi/full/10.1145/3544548.3581349,"Zehua Zeng - University of Maryland, College Park
+Leilani Battle - University of Washington, Seattle",2023,
+A Survey on (M)LLM-Based GUI Agents,https://arxiv.org/abs/2504.13865,,2025,
+"A Systematic Review of Visualization Recommendation Systems: Goals, Strategies, Interfaces, and Evaluations",https://www.emerald.com/ftdbs/article-abstract/14/1/1/1320827/A-Systematic-Review-of-Visualization?redirectedFrom=fulltext,,2024,
+ASKCHART: UNIVERSAL CHART UNDERSTANDING THROUGH TEXTUAL ENHANCEMENT,https://arxiv.org/abs/2412.19146,"Xudong Yang - 1.The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China, 2.The Hong Kong University of Science and Technology, Hong Kong SAR, China
+Yifan Wu - 1.The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China, 2.The Hong Kong University of Science and Technology, Hong Kong SAR, China
+Yizhang Zhu - 1.The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China, 2.The Hong Kong University of Science and Technology, Hong Kong SAR, China
+Nan Tang - 1.The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China, 2.The Hong Kong University of Science and Technology, Hong Kong SAR, China
+Yuyu Luo - 1.The Hong Kong University of Science and Technology (Guangzhou), Guangzhou, China, 2.The Hong Kong University of Science and Technology, Hong Kong SAR, China",2024,https://github.com/Sootung/AskChart
+AVA: Towards Autonomous Visualization Agents through Visual Perception-Driven Decision-Making,https://openurl.ebsco.com/EPDB%3Agcd%3A8%3A13739960/detailv2?sid=ebsco%3Aplink%3Ascholar&id=ebsco%3Agcd%3A177903236&crl=c&link_origin=scholar.google.com,"S. Liu - 1.Lawrence Livermore National Laboratory, USA, 2.University of Utah, USA
+H. Miao - 1.Lawrence Livermore National Laboratory, USA, 2.University of Utah, USA
+Z. Li - 1.Lawrence Livermore National Laboratory, USA, 2.University of Utah, USA
+M. Olson - 1.Lawrence Livermore National Laboratory, USA, 2.University of Utah, USA
+V. Pascucci - 1.Lawrence Livermore National Laboratory, USA, 2.University of Utah, USA
+P-T. Bremer - 1.Lawrence Livermore National Laboratory, USA, 2.University of Utah, USA",2024,无
+Advancing Multimodal Large Language Models in Chart Question Answering with Visualization-Referenced Instruction Tuning,https://dl.acm.org/doi/abs/10.1109/TVCG.2024.3456159,"Xingchen Zeng - 1.The Hong Kong University of Science and Technology (Guangzhou)
+Haichuan Lin - 1.The Hong Kong University of Science and Technology (Guangzhou)
+Yilin Ye - 1.The Hong Kong University of Science and Technology (Guangzhou), 2.The Hong Kong University of Science and Technology
+Wei Zeng - 1.The Hong Kong University of Science and Technology (Guangzhou), 2.The Hong Kong University of Science and Technology",2024,https://github.com/zengxingchen/ChartQA-MLLM
+An Empirical Evaluation of the GPT-4 Multimodal Language Model on Visualization Literacy Tasks,https://ieeexplore.ieee.org/abstract/document/10670574,"Alexander Bendeck - 1.Georgia Institute of Technology
+John Stasko - 1.Georgia Institute of Technology",2025,https://osf.io/f39j6/overview
+An Evaluation-Focused Framework for Visualization Recommendation Algorithms,https://ieeexplore.ieee.org/abstract/document/9552925,"Zehua Zeng - University of Maryland
+Phoebe Moh - University of Maryland
+Fan Du - Adobe Research
+Jane Hoffswell - Adobe Research
+Tak Yeon Lee - KAIST
+Sana Malik - Adobe Research
+Eunyee Koh - Adobe Research
+Leilani Battle - University of Washington",201x（具体日期未明确，仅显示为xx xxx.201x格式）,
+Automated Data Visualization from Natural Language via Large Language Models: An Exploratory Study,https://dl.acm.org/doi/abs/10.1145/3654992,,2024,
+Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimizations,https://arxiv.org/abs/2502.11140,"Wonduk Seo - 1.AI Research, Enhans, Seoul, South Korea
+Daye Kang - 1.AI Research, Enhans, Seoul, South Korea, 2.Innovation & Technology, KAIST, Daejeon, South Korea
+Hyunjin An - 1.AI Research, Enhans, Seoul, South Korea
+Taehan Kim - 3.Department of Computer Science, University of California, Berkeley, CA, United States
+Soohyuk Cho - 4.Department of Electrical and Computer Engineering, Princeton University, Princeton, NJ, United States
+Seungyong Lee - 1.AI Research, Enhans, Seoul, South Korea
+Minhyeong Yu - 1.AI Research, Enhans, Seoul, South Korea
+Jian Park - 5.Department of Data Science, Fudan University, Shanghai, China
+Yi Bu - 6.Department of Information Management, Peking University, Beijing, China
+Seunghyun Lee - 1.AI Research, Enhans, Seoul, South Korea",2026,https://github.com/leesy7197/vispath
+Autonomous GIS: the next-generation AI-powered GIS,https://www.tandfonline.com/doi/full/10.1080/17538947.2023.2278895,,2023,
+BIGCHARTS-R1: Enhanced Chart Reasoning with Visual Reinforcement Finetuning,https://openreview.net/forum?id=19fydz1QnW,"Ahmed Masry - 1.ServiceNow Research, 2.York University
+Abhay Puri - 1.ServiceNow Research
+Masoud Hashemi - 1.ServiceNow Research
+Juan A. Rodriguez - 1.ServiceNow Research, 3.Mila, 5.ETS Montreal
+Megh Thakkar - 1.ServiceNow Research
+Khyati Mahajan - 1.ServiceNow Research
+Vikas Yadav - 1.ServiceNow Research
+Sathwik Tejaswi Madhusudhan - 1.ServiceNow Research
+Alexandre Piché - 1.ServiceNow Research
+Dzmitry Bahdanau - 1.ServiceNow Research, 3.Mila, 7.CIFAR AI Chair
+Christopher Pal - 1.ServiceNow Research, 3.Mila, 6.Polytechnique Montreal, 7.CIFAR AI Chair
+David Vazquez - 1.ServiceNow Research
+Enamul Hoque - 2.York University
+Perouz Taslakian - 1.ServiceNow Research
+Sai Rajeswar - 1.ServiceNow Research, 3.Mila, 4.Université de Montréal
+Spandana Gella - 1.ServiceNow Research",2025,https://github.com/ServiceNow/BigCharts-R1
+Bavisitter: Integrating Design Guidelines into Large Language Models for Visualization Authoring,https://ieeexplore.ieee.org/abstract/document/10771142,"Jiwon Choi - Sungkyunkwan University
+Jaeung Lee - Sungkyunkwan University
+Jaemin Jo - Sungkyunkwan University",2024,https://github.com/jiwnchoi/Bavisitter
+Beyond Generating Code: Evaluating GPT on a Data Visualization Course,https://ieeexplore.ieee.org/abstract/document/10344146,"Zhutian Chen - *John A.Paulson School Of Engineering And Applied Sciences,Harvard University
+Chenyang Zhang - †Research intern in Harvard
+Qianwen Wang - ‡Biomedical Informatics,Harvard Medical School
+Jakob Troidl - *John A.Paulson School Of Engineering And Applied Sciences,Harvard University
+Simon Warchol - *John A.Paulson School Of Engineering And Applied Sciences,Harvard University
+Johanna Beyer - *John A.Paulson School Of Engineering And Applied Sciences,Harvard University
+Nils Gehlenborg - †Research intern in Harvard
+Hanspeter Pfister - *John A.Paulson School Of Engineering And Applied Sciences,Harvard University",2023,https://github.com/GPT4VIS/GPT-4-CS171
+Boosting Chart-to-Code Generation in MLLM via Dual Preference-Guided Refinement,https://dl.acm.org/doi/abs/10.1145/3746027.3755596,"Zhihan Zhang - 1.Singapore Management University Singapore
+Yixin Cao - 1.Fudan University Shanghai
+Lizi Liao - 1.Singapore Management University Singapore",2025,https://github.com/Zhihan72/Chart2Code
+CHARTCAP: Mitigating Hallucination of Dense Chart Captioning,https://openaccess.thecvf.com/content/ICCV2025/html/Lim_ChartCap_Mitigating_Hallucination_of_Dense_Chart_Captioning_ICCV_2025_paper.html,"Junyoung Lim - Seoul National University
+Jaewoo Ahn - Seoul National University
+Gunhee Kim - Seoul National University",2025,https://junyoung-00.github.io/ChartCap/
+CHARTEDIT: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing,https://aclanthology.org/2025.findings-acl.185/,,2025,
+CHARTMASTER: ADVANCING CHART-TO-CODE GENERATION WITH REAL-WORLD CHARTS AND CHART SIMILARITY REINFORCEMENT LEARNING,https://arxiv.org/abs/2508.17608,"Wentao Tan - 1.South China University of Technology, 2.JD Future Academy,China
+Qiong Cao - 2.JD Future Academy,China
+Chao Xue - 2.JD Future Academy,China
+Yibing Zhan - 3.Wuhan University
+Changxing Ding - 1.South China University of Technology
+Xiaodong He - 2.JD Future Academy,China",2025,https://github.com/WentaoTan/ChartMaster
+CHARTMIMIC:EVALUATING LMM'S CROSS-MODAL REASONING CAPABILITY VIA CHART-TO-CODE GENERATION,https://proceedings.iclr.cc/paper_files/paper/2025/hash/42806406dd99e30c3796bc98b2670fa2-Abstract-Conference.html,"Cheng Yang - 1.Tsinghua University
+Chufan Shi - 1.Tsinghua University
+Yaxin Liu - 1.Tsinghua University
+Bo Shui - 1.Tsinghua University
+Junjie Wang - 1.Tsinghua University
+Mohan Jing - 1.Tsinghua University
+Linran Xu - 1.Tsinghua University
+Xinyu Zhu - 1.Tsinghua University
+Siheng Li - 1.Tsinghua University
+Yuxiang Zhang - 1.Tsinghua University
+Gongye Liu - 1.Tsinghua University
+Xiaomei Nie - 1.Tsinghua University
+Deng Cai - 2.Tencent AI Lab
+Yujiu Yang - 1.Tsinghua University",2025,https://github.com/ChartMimic/ChartMimic
+CHARTMOE:MIXTURE OF DIVERSELY ALIGNED EXPERT CONNECTOR FOR CHART UNDERSTANDING,https://proceedings.iclr.cc/paper_files/paper/2025/hash/c33cd281f8cd784626a57de340e43fe4-Abstract-Conference.html,"Zhengzhuo Xu - 1.International Digital Economy Academy, 2.Tsinghua University
+Bowen Qu - 1.International Digital Economy Academy, 3.Peking University
+Yiyan Qi - 1.International Digital Economy Academy
+Sinan Du - 2.Tsinghua University
+Chengjin Xu - 1.International Digital Economy Academy
+Chun Yuan - 2.Tsinghua University
+Jian Guo - 1.International Digital Economy Academy, 4.Hong Kong University of Science and Technology (Guangzhou)",2025,https://github.com/DataArcTech/ChartMoE
+CHARTQAPRO :A More Diverse and Challenging Benchmark for Chart Question Answering,https://aclanthology.org/2025.findings-acl.978/,"Ahmed Masry - 1.York University, Canada, 2.MILA - Quebec AI Institute, Canada
+Mohammed Saidul Islam - 1.York University, Canada
+Mahir Ahmed - 1.York University, Canada
+Aayush Bajaj - 1.MILA - Quebec AI Institute, Canada
+Firoz Kabir - 1.York University, Canada
+Aaryaman Kartha - 1.York University, Canada
+Md Tahmid Rahman Laskar - 1.York University, Canada, 2.Dialpad Inc., Canada
+Mizanur Rahman - 1.RBC, Canada
+Shadikur Rahman - 1.York University, Canada
+Mehrad Shahmohammadi - 1.York University, Canada
+Megh Thakkar - 1.MILA - Quebec AI Institute, Canada
+Md Rizwan Parvez - 1.Qatar Computing Research Institute (QCRI)
+Enamul Hoque - 1.York University, Canada
+Shafiq Joty - 1.Nanyang Technological University, Singapore, 2.Salesforce Research, USA",2025,https://github.com/vis-nlp/ChartQAPro
+CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs,https://proceedings.neurips.cc/paper_files/paper/2024/hash/cdf6f8e9fd9aeaf79b6024caec24f15b-Abstract-Datasets_and_Benchmarks_Track.html,"Zirui Wang - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Mengzhou Xia - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Luxi He - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Howard Chen - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Yitao Liu - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Richard Zhu - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Kaiqu Liang - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Xindi Wu - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Haotian Liu - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Sadhika Malladi - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Alexis Chevalier - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Sanjeev Arora - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong
+Danqi Chen - 1.Princeton University, 2.University of Wisconsin, Madison, 3.The University of Hong Kong",2024,https://github.com/princeton-nlp/CharXiv
+Chart-R1:Chain-of-Thought Supervision and Reinforcement for Advanced Chart Reasoner,https://arxiv.org/abs/2507.15509,"Lei Chen - 1.Meituan
+Xuanle Zhao - 2.Institute of Automation,Chinese Academy of Sciences
+Zhixiong Zeng - 1.Meituan
+Jing Huang - 1.Meituan
+Yufeng Zhong - 1.Meituan
+Lin Ma - 1.Meituan",2025,https://github.com/DocTron-hub/Chart-R1
+Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs,https://aclanthology.org/2024.findings-naacl.62/,"Victor C̆arbune - Google Research
+Hassan Mansoor - Google Research
+Fangyu Liu - Google Research
+Rahul Aralikatte - Google Research
+Gilles Baechler - Google Research
+Jindong Chen - Google Research
+Abhanshu Sharma - Google Research",2024,无
+Chart-to-Text: A Large-Scale Benchmark for Chart Summarization,https://aclanthology.org/2022.acl-long.277/,"Shankar Kantharaj - 1.York University
+Rixie Tiffany Ko Leong - 1.Nanyang Technological University
+Xiang Lin - 1.Nanyang Technological University
+Ahmed Masry - 1.York University, 2.Nanyang Technological University
+Megh Thakkar - 1.Nanyang Technological University
+Enamul Hoque - 1.York University
+Shafiq Joty - 1.Nanyang Technological University",2022,https://github.com/vis-nlp/Chart-to-text
+ChartBench: A Benchmark for Complex Visual Reasoning in Charts,https://arxiv.org/abs/2312.15915,"Zhengzhuo Xu - 1.International Digital Economy Academy (IDEA), 2.Shenzhen International Graduate School, Tsinghua University, 3.The Hong Kong University of Science and Technology, Guangzhou
+Sinan Du - 1.International Digital Economy Academy (IDEA), 2.Shenzhen International Graduate School, Tsinghua University
+Yiyan Qi - 1.International Digital Economy Academy (IDEA)
+Chengjin Xu - 1.International Digital Economy Academy (IDEA)
+Chun Yuan - 2.Shenzhen International Graduate School, Tsinghua University
+Jian Guo - 1.International Digital Economy Academy (IDEA), 3.The Hong Kong University of Science and Technology, Guangzhou",2024,"https://chartbench.github.io/
+https://github.com/DataArcTech/ChartBench"
+ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation,https://aclanthology.org/2025.acl-long.363/,"Xuanle Zhao - 1.Tsinghua University, Beijing, China
+Xianzhen Luo - 2.Harbin Institute of Technology, Harbin, China
+Qi Shi - 1.Tsinghua University, Beijing, China
+Chi Chen - 1.Tsinghua University, Beijing, China
+Shuo Wang - 1.Tsinghua University, Beijing, China
+Zhiyuan Liu - 1.Tsinghua University, Beijing, China
+Maosong Sun - 1.Tsinghua University, Beijing, China",2025,https://github.com/thunlp/ChartCoder
+ChartE3: A Comprehensive Benchmark for End-to-End Chart Editing,https://arxiv.org/abs/2601.21694,,2026,
+ChartEditBench: Evaluating Grounded Multi-Turn Chart Editing in Multimodal Language Models,https://arxiv.org/abs/2602.15758,,2026,
+ChartGPT: Leveraging LLMs to Generate Charts From Abstract Natural Language,https://ieeexplore.ieee.org/abstract/document/10443572,"Yuan Tian - 1.Zhejiang University
+Weiwei Cui - 1.Microsoft
+Dazhen Deng - 1.Zhejiang University
+Xinjing Yi - 1.Zhejiang University
+Yurun Yang - 1.Zhejiang University
+Haidong Zhang - 1.Microsoft
+Yingcai Wu - 1.Zhejiang University",2025,https://huggingface.co/yuan-tian/chartgpt
+ChartGalaxy: A Dataset for Infographic Chart Understanding and Generation,https://arxiv.org/abs/2505.18668,"Zhen Li - 1.Tsinghua University
+Yukai Guo - 1.Tsinghua University
+Duan Li - 1.Tsinghua University
+Xinyuan Guo - 1.Tsinghua University
+Bowen Li - 1.Tsinghua University
+Lanxi Xiao - 1.Tsinghua University
+Shenyu Qiao - 1.Tsinghua University
+Jiashu Chen - 1.Tsinghua University
+Zijian Wu - 1.Tsinghua University
+Hui Zhang - 1.Tsinghua University
+Xinhuan Shu - 2.Newcastle University
+Shixia Liu - 1.Tsinghua University",2025,"https://github.com/ChartGalaxy/ChartGalaxy
+https://huggingface.co/datasets/ChartGalaxy/ChartGalaxy"
+ChartGemma:Visual Instruction-tuning for Chart Reasoning in the Wild,https://aclanthology.org/2025.coling-industry.54/,"Ahmed Masry - York University, Canada
+Megh Thakkar - Chandar Research Lab; MILA - Quebec AI Institute
+Aayush Bajaj - Chandar Research Lab; MILA - Quebec AI Institute
+Aaryaman Kartha - York University, Canada
+Enamul Hoque - York University, Canada
+Shafiq Joty - Salesforce Research; Nanyang Technological University, Singapore",2025,https://github.com/visnlp/ChartGemma
+ChartInsights: Evaluating Multimodal Large Language Models for Low-Level Chart Question Answering,https://aclanthology.org/2024.findings-emnlp.710/,"Yifan Wu - 1.The Hong Kong University of Science and Technology (Guangzhou), 2.The Hong Kong University of Science and Technology
+Lutao Yan - 3.South China University of Technology
+Leixian Shen - 2.The Hong Kong University of Science and Technology
+Yunhai Wang - 4.Renmin University of China
+Nan Tang - 1.The Hong Kong University of Science and Technology (Guangzhou), 2.The Hong Kong University of Science and Technology
+Yuyu Luo - 1.The Hong Kong University of Science and Technology (Guangzhou), 2.The Hong Kong University of Science and Technology",2024,https://github.com/HKUSTDial/ChartInsights
+ChartInstruct:Instruction Tuning for Chart Comprehension and Reasoning,https://aclanthology.org/2024.findings-acl.619/,"Ahmed Masry - ♣York University, Canada
+Mehrad Shahmohammadi - ♣York University, Canada
+Md Rizwan Parvez - ♥Qatar Computing Research Institute (QCRI)
+Enamul Hoque - ♣York University, Canada
+Shafiq Joty - ♦Salesforce Research, ♠Nanyang Technological University, Singapore",2024,https://github.com/visnlp/ChartInstruct
+ChartLlama: A Multimodal LLM for Chart Understanding and Generation,https://arxiv.org/abs/2311.16483,"Yucheng Han - 1.Nanyang Technological University, 2.Tencent
+Chi Zhang - 2.Tencent
+Xin Chen - 2.Tencent
+Xu Yang - 3.Southeast University
+Zhibin Wang - 2.Tencent
+Gang Yu - 2.Tencent
+Bin Fu - 2.Tencent
+Hanwang Zhang - 1.Nanyang Technological University",2023,https://github.com/tingxueronghua/ChartLlama-code
+ChartM3: Benchmarking Chart Editing with Multimodal Instructions,https://dl.acm.org/doi/abs/10.1145/3746027.3755714,"Donglu Yang - Renmin University of China
+Liang Zhang - Renmin University of China
+Zihao Yue - Renmin University of China
+Liangyu Chen - Renmin University of China
+Yichen Xu - Renmin University of China
+Wenxuan Wang - Renmin University of China
+Qin Jin - Renmin University of China",2025,
+ChartMind: A Comprehensive Benchmark for Complex Real-world Multimodal Chart Question Answering,https://aclanthology.org/2025.emnlp-main.226/,"Jingxuan Wei - 1.Beijing Wenge Technology Co.,Ltd., 2.Shenyang Institute of Computing Technology,Chinese Academy of Sciences, 3.MAIS,Institute of Automation,Chinese Academy of Sciences, 4.University of Chinese Academy of Sciences
+Nan Xu - 1.Beijing Wenge Technology Co.,Ltd., 2.Shenyang Institute of Computing Technology,Chinese Academy of Sciences, 3.MAIS,Institute of Automation,Chinese Academy of Sciences, 4.University of Chinese Academy of Sciences
+Junnan Zhu - 3.MAIS,Institute of Automation,Chinese Academy of Sciences
+Yanni Hao - 1.Beijing Wenge Technology Co.,Ltd., 3.MAIS,Institute of Automation,Chinese Academy of Sciences
+Gaowei Wu - 2.Shenyang Institute of Computing Technology,Chinese Academy of Sciences, 4.University of Chinese Academy of Sciences
+Qi Chen - 2.Shenyang Institute of Computing Technology,Chinese Academy of Sciences, 4.University of Chinese Academy of Sciences
+Bihui Yu - 2.Shenyang Institute of Computing Technology,Chinese Academy of Sciences, 4.University of Chinese Academy of Sciences
+Lei Wang - 1.Beijing Wenge Technology Co.,Ltd., 3.MAIS,Institute of Automation,Chinese Academy of Sciences",2025,无
+ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models,https://proceedings.neurips.cc/paper_files/paper/2025/hash/ca20efa9cf3703186d91424cf4876f8b-Abstract-Datasets_and_Benchmarks_Track.html,"Liyan Tang - The University of Texas at Austin
+Grace Kim - The University of Texas at Austin
+Xinyu Zhao - The University of Texas at Austin
+Thom Lake - The University of Texas at Austin
+Wenxuan Ding - The University of Texas at Austin
+Fangcong Yin - The University of Texas at Austin
+Prasann Singhal - The University of Texas at Austin
+Manya Wadhwa - The University of Texas at Austin
+Zeyu Leo Liu - The University of Texas at Austin
+Zayne Sprague - The University of Texas at Austin
+Ramya Namuduri - The University of Texas at Austin
+Bodun Hu - The University of Texas at Austin
+Juan Diego Rodriguez - The University of Texas at Austin
+Puyuan Peng - The University of Texas at Austin
+Greg Durrett - The University of Texas at Austin",2025,https://github.com/Liyan06/ChartMuseum
+ChartOCR: Data Extraction from Charts Images via a Deep Hybrid Framework,https://openaccess.thecvf.com/content/WACV2021/html/Luo_ChartOCR_Data_Extraction_From_Charts_Images_via_a_Deep_Hybrid_WACV_2021_paper.html,"Junyu Luo - 1.Pennstate University
+Zekun Li - 2.University of Southern California
+Jinpeng Wang - 3.Microsoft Research
+Chin-Yew Lin - 3.Microsoft Research",2021,https://github.com/soap117/DeepRule
+ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning,https://aclanthology.org/2022.findings-acl.177/,"Ahmed Masry - 1.York University, Canada
+Do Xuan Long - 1.Nanyang Technological University, Singapore, 2.Salesforce Research
+Jia Qing Tan - 1.Nanyang Technological University, Singapore
+Shafiq Joty - 1.Nanyang Technological University, Singapore, 2.Salesforce Research
+Enamul Hoque - 1.York University, Canada",2022,https://github.com/vis-nlp/ChartQA
+ChartSketcher: Reasoning with Multimodal Feedback and Reflection for Chart Understanding,https://proceedings.neurips.cc/paper_files/paper/2025/hash/661de50100d3115cf4317bb8b5219e56-Abstract-Conference.html,,2025,https://github.com/MuyeHuang/ChartSketcher?tab=readme-ov-file
+ChartX and ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning,https://ieeexplore.ieee.org/abstract/document/11202357,"Renqiu Xia - 1.School of Artificial Intelligence, Shanghai Jiao Tong University, 2.Shanghai Artificial Intelligence Laboratory
+Hancheng Ye - 1.Shanghai Artificial Intelligence Laboratory
+Xiangchao Yan - 1.Shanghai Artificial Intelligence Laboratory
+Qi Liu - 1.School of Artificial Intelligence, Shanghai Jiao Tong University, 2.Shanghai Artificial Intelligence Laboratory
+Hongbin Zhou - 1.Shanghai Artificial Intelligence Laboratory
+Zijun Chen - 1.School of Artificial Intelligence, Shanghai Jiao Tong University
+Botian Shi - 1.Shanghai Artificial Intelligence Laboratory
+Junchi Yan - 1.School of Artificial Intelligence, Shanghai Jiao Tong University, 2.Shanghai Artificial Intelligence Laboratory
+Bo Zhang - 1.Shanghai Artificial Intelligence Laboratory",2025,https://github.com/Alpha-Innovator/ChartVLM
+ChartifyText: Automated Chart Generation from Data-Involved Texts via LLM,https://arxiv.org/abs/2410.14331,"Songheng Zhang - 1.（未提供）
+Lei Wang - 1.（未提供）
+Toby Jia-Jun Li - 1.（未提供）
+Qiaomu Shen - 1.（未提供）
+Yixin Cao - 1.（未提供）
+Yong Wang - 1.（未提供）",2024,无
+Charting the Future: Using Chart Question-Answering for Scalable Evaluation of LLM-Driven Data Visualizations,https://aclanthology.org/2025.coling-main.501/,"James Ford - Department of Information Systems and Cyber Security The University of Texas at San Antonio
+Xingmeng Zhao - Department of Information Systems and Cyber Security The University of Texas at San Antonio
+Dan Schumacher - Department of Information Systems and Cyber Security The University of Texas at San Antonio
+Anthony Rios - Department of Information Systems and Cyber Security The University of Texas at San Antonio",2025,无
+Chartreformer: Natural language-driven chart image editing,https://link.springer.com/chapter/10.1007/978-3-031-70533-5_26,,2024,
+Charts Are Not Images: On the Challenges of Scientific Chart Editing,https://arxiv.org/abs/2512.00752,,2025,
+"Chat2vis: Generating data visualizations via natural language using chatgpt, codex and gpt-3 large language models",https://ieeexplore.ieee.org/abstract/document/10121440,,2023,
+Context-Aware Chart Element Detection,https://arxiv.org/abs/2305.04151,"Pengyu Yan - Department of Computer Science and Engineering, University at Buffalo, Buffalo, NY, USA
+Saleem Ahmed - Department of Computer Science and Engineering, University at Buffalo, Buffalo, NY, USA
+David Doermann - Department of Computer Science and Engineering, University at Buffalo, Buffalo, NY, USA",2023,https://github.com/pengyu965/ChartDete
+DASHBOARDQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards,https://aclanthology.org/2025.acl-long.454/,"Aaryaman Kartha - 1.York University
+Ahmed Masry - 1.York University
+Mohammed Saidul Islam - 1.York University
+Thinh Lang - 1.York University
+Shadikur Rahman - 1.York University
+Ridwan Mahbub - 1.York University
+Mizanur Rahman - 1.York University
+Mahir Ahmed - 1.York University
+Md Rizwan Parvez - 1.Qatar Computing Research Institute (QCRI)
+Enamul Hoque - 1.York University
+Shafiq Joty - 1.Nanyang Technological University, 2.Salesforce Research",2025,https://github.com/vis-nlp/DashboardQA
+DATANARRATIVE: Automated Data-Driven Storytelling with Visualizations and Texts,https://aclanthology.org/2025.acl-long.454/,"Mohammed Saidul Islam - 1.York University, Canada
+Md Tahmid Rahman Laskar - 1.York University, Canada, 2.Dialpad Inc., Canada
+Md Rizwan Parvez - 1.Qatar Computing Research Institute (QCRI)
+Enamul Hoque - 1.York University, Canada
+Shafiq Joty - 1.Nanyang Technological University, Singapore, 2.Salesforce AI",2024,无
+DEPLOT:One-shot visual language reasoning by plot-to-table translation,https://aclanthology.org/2023.findings-acl.654/,"Fangyu Liu - 1.Google DeepMind, 2.University of Cambridge
+Julian Martin Eisenschlos - 1.Google DeepMind
+Francesco Piccinno - 1.Google DeepMind
+Syrine Krichene - 1.Google DeepMind
+Chenxi Pang - 1.Google DeepMind
+Kenton Lee - 1.Google DeepMind
+Mandar Joshi - 1.Google DeepMind
+Wenhu Chen - 1.Google DeepMind
+Nigel Collier - 1.Google DeepMind
+Yasemin Altun - 1.Google DeepMind",2023,github.com/google-research/googleresearch/tree/master/deplot
+DVQA: Understanding Data Visualizations via Question Answering,https://dl.acm.org/doi/10.1145/3772363.3798634,"Kushal Kafle - 1.Rochester Institute of Technology
+Brian Price - 2.Adobe Research
+Scott Cohen - 2.Adobe Research
+Christopher Kanan - 1.Rochester Institute of Technology",2018,无
+Dashchat: Interactive authoring of industrial dashboard design prototypes through conversation with llm-powered agents,https://dl.acm.org/doi/10.1145/3772363.3798634,,2025,
+Data Formulator: AI-Powered Concept-Driven Visualization Authoring,https://ieeexplore.ieee.org/document/10263116,"Chenglong Wang - Microsoft Research
+John Thompson - Microsoft Research
+Bongshin Lee - Microsoft Research",2024,
+Data visualization recommendation: Literature review and future perspectives,https://journals.sagepub.com/doi/10.1177/14738716251409351,,2026,
+Deconstructing Categorization in Visualization Recommendation: A Taxonomy and Comparative Study,https://ieeexplore.ieee.org/document/9444789,,2021,
+Deep Colormap Extraction From Visualization,https://ieeexplore.ieee.org/document/9395231,"Lin-Ping Yuan - 1.The Hong Kong University of Science and Technology
+Wei Zeng - 1.Shenzhen Institute of Advanced Technology, Chinese Academy of Sciences
+Siwei Fu - 1.Zhejiang Lab
+Zhiliang Zeng - 1.The Chinese University of Hong Kong
+Haotian Li - 1.The Hong Kong University of Science and Technology
+Chi-Wing Fu - 1.The Chinese University of Hong Kong
+Huamin Qu - 1.The Hong Kong University of Science and Technology",2022,https://bit.ly/3bjMdyV
+Distill Visual Chart Reasoning Ability from LLMs to MLLMs,https://aclanthology.org/2025.emnlp-main.221/,"Wei He - 1.School of Computer Science, Fudan University
+Zhiheng Xi - 1.School of Computer Science, Fudan University
+Wanxu Zhao - 1.School of Computer Science, Fudan University
+Xiaoran Fan - 1.School of Computer Science, Fudan University
+Yiwen Ding - 1.School of Computer Science, Fudan University
+Zifei Shan - 2.Wei Xin Group, Tencent
+Tao Gui - 1.School of Computer Science, Fudan University, 3.Shanghai Innovation Institute, 4.Shanghai Key Lab of Intelligent Information Processing
+Qi Zhang - 1.School of Computer Science, Fudan University, 4.Shanghai Key Lab of Intelligent Information Processing
+Xuanjing Huang - 1.School of Computer Science, Fudan University, 4.Shanghai Key Lab of Intelligent Information Processing",2025,https://github.com/hewei2001/ReachQA
+Diverse interaction recommendation for public users exploring multi-view visualization using deep learning,https://ieeexplore.ieee.org/document/9869584,,2022,
+DracoGPT:Extracting Visualization Design Preferences from Large Language Models,https://dl.acm.org/doi/10.1109/TVCG.2024.3456350,"Huichen Will Wang - University of Washington
+Mitchell Gordon - University of Washington
+Leilani Battle - University of Washington
+Jeffrey Heer - University of Washington",2025,无
+DuetSVG:Unified Multimodal SVG Generation with Internal Visual Guidance,https://arxiv.org/abs/2512.10894,"Peiying Zhang - 1.City University of Hong Kong
+Nanxuan Zhao - 2.Adobe Research
+Matthew Fisher - 2.Adobe Research
+Yiran Xu - 2.Adobe Research
+Jing Liao - 1.City University of Hong Kong
+Difan Liu - 2.Adobe Research",2025,https://intchous.github.io/DuetSVG-site
+DynaVis: Dynamically Synthesized UI Widgets for Visualization Editing,https://dl.acm.org/doi/10.1145/3613904.3642639,"Priyan Vaithilingam - 1.Harvard University, Cambridge, MA, United States
+Elena Leah Glassman - 1.Harvard University, Cambridge, MA, United States
+Jeevana Priya Inala - 1.Microsoft Corporation, Redmond, WA, United States
+Chenglong Wang - 1.Microsoft Research, Redmond, WA, United States",2024,无
+Enhancing Data Literacy On-Demand: LLMs as Guides for Novices in Chart Interpretation,https://ieeexplore.ieee.org/document/10554458,"Kiroong Choe - Seoul National University, South Korea
+Chaerin Lee - Seoul National University, South Korea
+Soohyun Lee - Seoul National University, South Korea
+Jiwon Song - Seoul National University, South Korea
+Aeri Cho - Seoul National University, South Korea
+Nam Wook Kim - Boston College, Chestnut Hill, MA 02467 USA
+Jinwook Seo - Seoul National University, South Korea",2025,无
+Ephemera: Language as a Virus-AI-driven Interactive and Immersive Art Installation,https://dl.acm.org/doi/10.1145/3664219,,2024,
+Evaluating the Semantic Profiling Abilities of LLMs for Natural Language Utterances in Data Visualization,https://ieeexplore.ieee.org/document/10770414,"Hannah K. Bako - University of Maryland
+Arshnoor Bhutani - University of Maryland
+Xinyi Liu - University of Texas at Austin
+Kwesi A. Cobbina - University of Maryland
+Zhicheng Liu - University of Maryland",2024,https://github.com/hdi-umd/Semantic_Profiling_LLM_Evaluation
+Exploring the Capability of LLMs in Performing Low-Level Visual Analytic Tasks on SVG Data Visualizations,https://ieeexplore.ieee.org/document/10770471,"Zhongzheng Xu - Brown University
+Emily Wall - Emory University",2024,https://github.com/lebretou/SVG_taxonomy
+FERRET-UI 2: MASTERING UNIVERSAL USER INTERFACE UNDERSTANDING ACROSS PLATFORMS,https://proceedings.iclr.cc/paper_files/paper/2025/hash/f7baab9bb701848e75f3cc119bdf57bc-Abstract-Conference.html,"Zhangheng Li - Mohan Apple zohar
+Keen You - Mohan Apple zohar
+Haotian Zhang - Mohan Apple zohar
+Di Feng - Mohan Apple zohar
+Harsh Agrawal - Mohan Apple zohar
+Xiujun Li - Mohan Apple zohar
+Mohana Prasad Sathya Moorthy - Mohan Apple zohar
+Jeff Nichols - Mohan Apple zohar
+Yinfei Yang - Mohan Apple zohar
+Zhe Gan - Mohan Apple zohar",2025,无
+Ferret-UI:Grounded Mobile UI Understanding with Multimodal LLMs,https://www.ecva.net/papers/eccv_2024/papers_ECCV/papers/08095.pdf,"Keen You - Apple, Seattle, USA
+Haotian Zhang - Apple, Seattle, USA
+Eldon Schoop - Apple, Seattle, USA
+Floris Weers - Apple, Seattle, USA
+Amanda Swearngin - Apple, Seattle, USA
+Jeffrey Nichols - Apple, Seattle, USA
+Yinfei Yang - Apple, Seattle, USA
+Zhe Gan - Apple, Seattle, USA",2025,无
+From data to story: Towards automatic animated data video creation with llm-based multi-agent systems,https://ieeexplore.ieee.org/document/10768436,,2024,
+GVVST: Image-driven style extraction from graph visualizations for visual style transfer,https://ieeexplore.ieee.org/document/10734252,,2024,
+Generative Data Visualization with JSON Representations,https://ieeexplore.ieee.org/document/11050619,"Charles Glaser - Whiting School of Engineering EP Program Johns Hopkins University
+Erhan Guven - Whiting School of Engineering EP Program Johns Hopkins University",2025,无
+GenoREC: A Recommendation System for Interactive Genomics Data Visualization,https://ieeexplore.ieee.org/document/9908148,"Aditeya Pandey - Northeastern University, MA, US
+Sehi L'Yi - Harvard Medical School, MA, US
+Qianwen Wang - Harvard Medical School, MA, US
+Michelle A. Borkin - Northeastern University, MA, US
+Nils Gehlenborg - Harvard Medical School, MA, US",2023,https://osf.io/y73pt/overview
+How Aligned are Human Chart Takeaways and LLM Predictions? A Case Study on Bar Charts with Varying Layouts,https://ieeexplore.ieee.org/document/10681139,"Huichen Will Wang - 1.The University of Washington
+Jane Hoffswell - 2.Adobe Research
+Victor S.Bursztyn - 2.Adobe Research
+Sao Myat Thazin Thane - 3.UMass Amherst
+Cindy Xiong Bearfield - 4.Georgia Institute of",2025,无
+How does automation shape the process of narrative visualization: A survey of tools,https://ieeexplore.ieee.org/document/10081398,,2023,
+IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation,https://arxiv.org/abs/2601.04498,,2026,
+Iluvui: Instruction-tuned language-vision modeling of uis from machine conversations,https://dl.acm.org/doi/10.1145/3708359.3712129,,2025,
+InfoChartQA: A Benchmark for Multimodal Question Answering on Infographic Charts,https://neurips.cc/virtual/2025/loc/san-diego/poster/121377,"Tianchi Xie - Tsinghua University
+Minzhi Lin - Tsinghua University
+Mengchen Liu - Meta
+Yilin Ye - Hong Kong University of Science and Technology
+Changjian Chen - Hunan University
+Shixia Liu - Tsinghua University",2025,https://github.com/CoolDawnAnt/InfoChartQA
+InfographicVQA,https://ieeexplore.ieee.org/document/9706887,"Minesh Mathew - 1.CVIT, IIIT Hyderabad, India
+Viraj Bagal - 2.IISER Pune, India
+Ruben Tito - 3.Computer Vision Center, UAB, Spain
+Dimosthenis Karatzas - 3.Computer Vision Center, UAB, Spain
+Ernest Valveny - 3.Computer Vision Center, UAB, Spain
+C.V.Jawahar - 1.CVIT, IIIT Hyderabad, India",2022,https://www.docvqa.org/datasets/infographicvqa
+InkSight: Leveraging Sketch Interaction for Documenting Chart Findings in Computational Notebooks,https://ieeexplore.ieee.org/document/10296056,"Yanna Lin - Hong Kong University of Science and Technology
+Haotian Li - Hong Kong University of Science and Technology
+Leni Yang - Hong Kong University of Science and Technology
+Aoyu Wu - Harvard University
+Huamin Qu - Hong Kong University of Science and Technology",2023,
+InterChat: Enhancing Generative Visual Analytics using Multimodal Interactions,https://arxiv.org/abs/2503.04110,"Juntong Chen – 1.University of California, Davis, USA
+Jiang Wu – 1.University of California, Davis, USA
+Jiajing Guo – 2.Bosch Research North America, USA, 3.Bosch Center for Artificial Intelligence (BCAI)
+Vikram Mohanty – 2.Bosch Research North America, USA, 3.Bosch Center for Artificial Intelligence (BCAI)
+Xueming Li – 4.Robert Bosch GmbH
+Jorge Piazentin Ono – 2.Bosch Research North America, USA, 3.Bosch Center for Artificial Intelligence (BCAI)
+Wenbin He – 2.Bosch Research North America, USA, 3.Bosch Center for Artificial Intelligence (BCAI)
+Liu Ren – 2.Bosch Research North America, USA, 3.Bosch Center for Artificial Intelligence (BCAI)
+Dongyu Liu – 1.University of California, Davis, USA",2025,无
+Is GPT-4V (ision) All You Need for Automating Academic Data Visualization? Exploring Vision-Language Models’ Capability in Reproducing Academic Charts,https://aclanthology.org/2024.findings-emnlp.476/,"Zhehao Zhang - Department of Computer Science, Dartmouth College
+Weicheng Ma - Department of Computer Science, Dartmouth College
+Soroush Vosoughi - Department of Computer Science, Dartmouth College",2024,https://github.com/zzh-SJTU/AcademiaChart
+KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation,https://ieeexplore.ieee.org/document/9552844,,2021,
+Knownet: Guided health information seeking from llms via knowledge graph integration,https://ieeexplore.ieee.org/document/10670469,,2024,
+LEVA: Using Large Language Models to Enhance Visual Analytics,https://ieeexplore.ieee.org/document/10458347,"Yuheng Zhao, Yixing Zhang, Xinyi Zhao, Zekai Shao, Siming Chen - 1.School of Data Science, Fudan University
+Yu Zhang - 1.Department of Computer Science, University of Oxford
+Cagatay Turkay - 1.University of Warwick",2025,无
+LIDA:A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models,https://aclanthology.org/2023.acl-demo.10/,Victor Dibia - Microsoft Research,2023,https://github.com/microsoft/l
+LLM4Vis: Explainable Visualization Recommendation using ChatGPT,https://aclanthology.org/2023.emnlp-industry.43/,"Lei Wang, Songheng Zhang, Yong Wang - Singapore Management University
+Yun Wang - Microsoft Research Asia
+Ee-Peng Lim - Singapore Management University",2023,https://github.com/demoleiwang/LLM4Vis 
+Learning to Recommend Visualizations from Data,https://dl.acm.org/doi/10.1145/3447548.3467224,,2021,
+Leveraging foundation models for crafting narrative visualization: A survey,https://ieeexplore.ieee.org/document/10891192,,2024,
+Libra: An interaction model for data visualization,https://dl.acm.org/doi/10.1145/3706598.3713769,,2025,
+Lightva: Lightweight visual analytics with llm agent-based task planning and execution,https://ieeexplore.ieee.org/document/10753451,,2024,
+MATCHA: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering,https://aclanthology.org/2023.acl-long.564/,"Fangyu Liu - 1.Google DeepMind, 2.University of Cambridge
+Francesco Piccinno - 1.Google DeepMind
+Syrine Krichene - 1.Google DeepMind
+Chenxi Pang - 1.Google DeepMind
+Kenton Lee - 1.Google DeepMind
+Mandar Joshi - 1.Google DeepMind
+Yasemin Altun - 1.Google DeepMind
+Nigel Collier - 2.University of Cambridge
+Julian Martin Eisenschlos - 1.Google DeepMind",2023,https://github.com/google-research/google-research/tree/master/deplot
+METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling,https://aclanthology.org/2025.acl-long.1452/,"Bingxuan Li - 1.University of California, Los Angeles
+Yiwei Wang - 2.University of California, Merced
+Jiuxiang Gu - 3.Adobe Research
+Kai-Wei Chang - 1.University of California, Los Angeles
+Nanyun Peng - 1.University of California, Los Angeles",2025,https://github.com/metal-chart-generation/metal
+MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning,https://aclanthology.org/2024.naacl-long.70/,"Fuxiao Liu - 1.University of Maryland, College Park 2.Tencent AI Lab
+Xiaoyang Wang - 2.Tencent AI Lab
+Wenlin Yao - 2.Tencent AI Lab
+Jianshu Chen - 2.Tencent AI Lab
+Kaiqiang Song - 2.Tencent AI Lab
+Sangwoo Cho - 2.Tencent AI Lab
+Yaser Yacoob - 1.University of Maryland, College Park
+Dong Yu - 2.Tencent AI Lab",2024,https://github.com/FuxiaoLiu/MMC
+MapIO: A Gestural and Conversational Interface for Tactile Maps,https://ieeexplore.ieee.org/document/10981719,"Matteo Manzoni - 1.Department of Computer Science, Università degli Studi di Milano, 2133 Milan, Italy
+Sergio Mascetti - 1.Department of Computer Science, Università degli Studi di Milano, 2133 Milan, Italy
+Dragan Ahmetovic - 1.Department of Computer Science, Università degli Studi di Milano, 2133 Milan, Italy
+Ryan Crabb - 2.The Smith-Kettlewell Eye Research Institute, San Francisco, CA 94115, USA
+James M. Coughlan - 2.The Smith-Kettlewell Eye Research Institute, San Francisco, CA 94115, USA",2025,
+MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization,https://aclanthology.org/2024.findings-acl.701/,"Zhiyu Yang – 1. Tsinghua University, 2. Institute for AI, Tsinghua University, 3. Beijing National Research Center for Information Science and Technology
+Zihan Zhou – 4. Beijing Language and Culture University, 5. Xiamen University
+Shuo Wang – 1. Tsinghua University, 2. Institute for AI, Tsinghua University, 3. Beijing National Research Center for Information Science and Technology
+Xin Cong – 1. Tsinghua University, 2. Institute for AI, Tsinghua University, 3. Beijing National Research Center for Information Science and Technology
+Xu Han – 1. Tsinghua University, 2. Institute for AI, Tsinghua University, 3. Beijing National Research Center for Information Science and Technology
+Yukun Yan – 1. Tsinghua University, 2. Institute for AI, Tsinghua University, 3. Beijing National Research Center for Information Science and Technology
+Zhenghao Liu – 6. Northeastern University, China
+Zhixing Tan – 7. Zhongguancun Laboratory, Beijing
+Pengyuan Liu – 4. Beijing Language and Culture University
+Dong Yu – 4. Beijing Language and Culture University
+Zhiyuan Liu – 1. Tsinghua University, 2. Institute for AI, Tsinghua University, 3. Beijing National Research Center for Information Science and Technology
+Xiaodong Shi – 5. Xiamen University
+Maosong Sun – 1. Tsinghua University, 2. Institute for AI, Tsinghua University, 3. Beijing National Research Center for Information Science and Technology",2024,https://github.com/thunlp/MatPlotAgent
+"MisVisFix: An Interactive Dashboard for Detecting, Explaining, and Correcting Misleading Visualizations using Large Language Models",https://pubmed.ncbi.nlm.nih.gov/41296968/,"J. Alexander - 1.UC Berkeley
+P. Nanda - 1.UC Berkeley
+K.-C. Yang - 1.UC Berkeley
+A. Sarvghad - 1.UC Berkeley
+R. C. Basole - 1.Georgia Institute of Technology
+T. Major - 1.Georgia Institute of Technology
+A. Bendeck - 1.Georgia Institute of Technology
+J. Stasko - 1.Georgia Institute of Technology
+C. T. Bergstrom - 1.University of Washington
+A. Bhattacharya - 1.IBM Research
+D. B. Brahma - 1.IBM Research
+S. Nagaje - 1.IBM Research
+A. Asati - 1.IBM Research
+V. Verma - 1.IBM Research
+S. Biswas - 1.IBM Research
+J. Boy - 1.University of British Columbia
+E. Bertini - 1.University of British Columbia
+R. A. Rensink - 1.University of British Columbia
+J.-D. Fekete - 1.University of British Columbia
+A. Cairo - 1.W. W. Norton & Company
+N. Chen - 1.University of Maryland
+Y. Zhang - 1.University of Maryland
+J. Xu - 1.University of Maryland
+K. Ren - 1.University of Maryland
+Y. Yang - 1.University of Maryland
+Q. Chen - 1.University of Maryland
+F. Sun - 1.University of Maryland
+X. Xu - 1.University of Maryland
+Z. Chen - 1.University of Maryland
+J. Wang - 1.University of Maryland
+N. Cao - 1.University of Maryland
+F. Chevalier - 1.University of British Columbia
+N. Henry Riche - 1.University of British Columbia
+B. Alper - 1.University of British Columbia
+C. Plaisant - 1.University of British Columbia
+J. Boy - 1.University of British Columbia
+N. E. Elmqvist - 1.University of British Columbia
+M. Correll - 1.University of Toronto
+E. Bertini - 1.University of Toronto
+S. Franconeri - 1.University of Toronto
+X. L. Do - 1.University of Toronto
+M. Hassanpour - 1.University of Toronto
+A. Masry - 1.University of Toronto
+P. Kavehzadeh - 1.University of Toronto
+E. Hoque - 1.University of Toronto
+S. Joty - 1.University of Toronto
+E. Dritsas - 1.University of Cyprus
+M. Trigka - 1.University of Cyprus
+C. Troussas - 1.University of Cyprus
+P. Mylonas - 1.University of Cyprus
+L. W. Ge - 1.University of Maryland
+Y. Cui - 1.University of Maryland
+M. Kay - 1.University of Maryland
+D. Huff - 1.W. W. Norton & Company
+I. Geis - 1.W. W. Norton & Company
+K. Kafle - 1.University of Rochester
+B. Price - 1.University of Rochester
+S. Cohen - 1.University of Rochester
+C. Kanan - 1.University of Rochester
+S. E. Kahou - 1.Mila
+V. Michalski - 1.Mila
+A. Atkinson - 1.Mila
+A. Kadar - 1.Mila
+A. Trischler - 1.Mila
+Y. Bengio - 1.Mila
+K. Langraw - 1.University of Maryland
+A. Zaman - 1.University of Maryland
+C. Lee - 1.University of Maryland
+T. Yang - 1.University of Maryland
+G. D. Inchoco - 1.University of Maryland
+G. M. Jones - 1.University of Maryland
+A. Satyanarayan - 1.University of Maryland
+C. L. Raw - 1.University of Maryland
+A. Zaman - 1.University of Maryland
+S. L. Lee - 1.University of Maryland
+S.-H. Kim - 1.University of Maryland
+B. C. Kwon - 1.University of Maryland
+F. Lei - 1.University of Maryland
+A. Fan - 1.University of Maryland
+A. M. MacEachren - 1.University of Maryland
+R. Maciejewski - 1.University of Maryland
+H. Li - 1.University of Maryland
+G. Appleby - 1.University of Maryland
+A. Suh - 1.University of Maryland
+C. L. Lin - 1.University of Maryland
+M. Thornton - 1.University of Maryland
+H. L. Lin - 1.University of Maryland
+Z. Luo - 1.University of Maryland
+J. Ma - 1.University of Maryland
+L. Chen - 1.University of Maryland
+M. Lisnic - 1.University of Maryland
+C. Polychronis - 1.University of Maryland
+A. Lex - 1.University of Maryland
+M. Kogan - 1.University of Maryland
+L. Y.-H. Lo - 1.University of Maryland
+A. Gupta - 1.University of Maryland
+K. Shigyo - 1.University of Maryland
+A. Wu - 1.University of Maryland
+E. Bertini - 1.University of Maryland
+H. Qu - 1.University of Maryland
+A. V. Pandey - 1.University of Maryland
+K. Rall - 1.University of Maryland
+M. L. Satterthwaite - 1.University of Maryland
+O. Nov - 1.University Maryland
+E. Bertini - 1.University of Maryland
+J. Poco - 1.University of Maryland
+J. Heer - 1.University of Maryland
+O. Rivera-Romero - 1.University of Maryland
+E. Gabarron - 1.University of Maryland
+T. Miron-Shatz - 1.University of Maryland
+C. Petersen - 1.University of Maryland
+K. Denecke - 1.University of Maryland
+M. Savva - 1.University of Maryland
+N. Kong - 1.University of Maryland
+A. Chhajta - 1.University of Maryland
+L. Fei-Fei - 1.University of Maryland
+M. Agrawala - 1.University of Maryland
+J. Heer - 1.University of Maryland
+J. Seo - 1.University of Maryland
+Y. Xia - 1.University of Maryland
+B. Lee - 1.University of Maryland
+S. McCurry - 1.University of Maryland
+Y. J. Yam - 1.University of Maryland
+A. Sharif - 1.University of Maryland
+J. G. Kim - 1.University of Maryland
+J. Z. Xu - 1.University of Maryland
+J. O. Wobbrock - 1.University of Maryland
+G. Team - 1.University of Maryland
+R. Anil - 1.University of Maryland
+S. Borgeaud - 1.University of Maryland
+J.-B. Alayrac - 1.University of Maryland
+J. Yu - 1.University of Maryland
+R. Soricut - 1.University of Maryland
+J. Tonglet - 1.University of Maryland
+T. Tuytelaars - 1.University of Maryland
+M.-F. Moens - 1.University of Maryland
+I. Gurevych - 1.University of Maryland
+D. Vazquez - 1.University of Maryland
+P.-P. Vazquez - 1.University of Maryland
+T. Vergho - 1.University of Maryland
+J.-F. Godbout - 1.University of Maryland
+R. Rabbany - 1.University of Maryland
+K. Pelrine - 1.University of Maryland
+N. Vrabec - 1.University of Maryland
+L. Pieš - 1.University of Maryland
+I. Zakir Hussain - 1.University of Maryland
+J. Kaur - 1.University of Maryland
+Z. Butt - 1.University of Maryland
+P. Morita - 1.University of Maryland
+Y. Zhang - 1.University of Maryland
+L. Trinh - 1.University of Maryland
+D. Cao - 1.University of Maryland
+Z. Cui - 1.University of Maryland
+Y. Liu - 1.University of Maryland",2024,https://github.com/vhcailab/MisVisFix
+Multimodal deepresearcher: Generating text-chart interleaved reports from scratch with agentic framework,https://ojs.aaai.org/index.php/AAAI/article/view/40734?,,2026,
+NL2Color: Refining Color Palettes for Charts with Natural Language,https://pubmed.ncbi.nlm.nih.gov/37871067/,"Chuhan Shi - 1.Southeast University and the Hong Kong University of Science and Technology
+Weiwei Cui - 1.Microsoft Research Asia
+Haidong Zhang - 1.Microsoft Research Asia
+Chengzhong Liu - 1.the Hong Kong University of Science and Technology
+Chengbo Zheng - 1.the Hong Kong University of Science and Technology
+Qiong Luo - 1.the Hong Kong University of Science and Technology and the Hong Kong University of Science and Technology (Guangzhou)
+Xiaojuan Ma - 1.the Hong Kong University of Science and Technology",2024,无
+NL2Dashboard: A Lightweight and Controllable Framework for Generating Dashboards with LLMs,https://arxiv.org/abs/2601.06126?,"Boshen Shi - Jiutian Research, China Mobile, Beijing, China
+Kexin Yang - Jiutian Research, China Mobile, Beijing, China
+Yuanbo Yang - Jiutian Research, China Mobile, Beijing, China
+Guanguang Chang - Jiutian Research, China Mobile, Beijing, China
+Ce Chi - Jiutian Research, China Mobile, Beijing, China
+Zhendong Wang - Jiutian Research, China Mobile, Beijing, China
+Xing Wang - Jiutian Research, China Mobile, Beijing, China
+Junlan Feng - Jiutian Research, China Mobile, Beijing, China",2026,无
+NVAGENT: Automated Data Visualization from Natural Language via Collaborative Agent Workflow,https://aclanthology.org/2025.acl-long.960/?,"Geliang Ouyang - 1.Huazhong University of Science and Technology
+Jingyao Chen - 2.Beijing University of Posts and Telecommunications
+Zhihe Nie - 1.Huazhong University of Science and Technology
+Yi Gui - 1.Huazhong University of Science and Technology
+Yao Wan - 1.Huazhong University of Science and Technology
+Hongyu Zhang - 3.Chongqing University
+Dongping Chen - 1.Huazhong University of Science and Technology",2025,https://github.com/geliang0114/nvAgent
+Natural Language Dataset Generation Framework for Visualizations Powered by Large Language Models,https://cir.nii.ac.jp/crid/1360869864294482688?,"Hyung-Kwon Ko - 1.KAIST, Republic of Korea
+Dae Hyun Kim - 1.KAIST, Republic of Korea
+Hyeon Jeon - 1.Seoul National University Republic of Korea
+Nam Wook Kim - 1.Boston College, USA
+Gwanmo Park - 1.Seoul National University Republic of Korea
+Juho Kim - 1.KAIST, Republic of Korea
+Jinwook Seo - 1.Seoul National University Republic of Korea",2024,"https://github.com/hyungkwonko/chart-llm
+数据集：https://hyungkwonko.info/chart-llm-data/"
+Natural Language to Visualization by Neural Machine Translation,https://ieeexplore.ieee.org/document/9617561,"Yuyu Luo - 1. Department of Computer Science, Tsinghua University, China
+Nan Tang - 1. QCRI, Hamad Bin Khalifa University, Qatar
+Guoliang Li - 1. Department of Computer Science, Tsinghua University, China
+Jiawei Tang - 1. American School of Doha, Doha, Qatar
+Chengliang Chai - 1. Department of Computer Science, Tsinghua University, China
+Xuedi Qin - 1. Department of Computer Science, Tsinghua University, China",2022,"https://github.com/HKUSTDial/ncNet
+https://github.com/HKUSTDial/Vega-Zero"
+Notable: On-the-fly assistant for data storytelling in computational notebooks,https://dl.acm.org/doi/10.1145/3544548.3580965,,2023,
+On Pre-training of Multimodal Language Models Customized for Chart Understanding,https://arxiv.org/abs/2407.14506,"Wan-Cyuan Fan - 1.UBC, 3.Vector Institute for AI, 4.CIFAR AI Chair
+Yen-Chun Chen - 2.Microsoft
+Mengchen Liu - 2.Microsoft
+Lu Yuan - 2.Microsoft
+Leonid Sigal - 1.UBC, 3.Vector Institute for AI, 4.CIFAR AI Chair",2025,无
+OneChart: Purify the Chart Structural Extraction via One Auxiliary Token,https://arxiv.org/abs/2404.09987,"Jinyue Chen - 1.University of Chinese Academy of Sciences, Beijing, China
+Lingyu Kong - 1.University of Chinese Academy of Sciences, Beijing, China
+Haoran Wei - 1.Beijing MEGVII Technology Co., Ltd., Beijing, China
+Chenglong Liu - 1.University of Chinese Academy of Sciences, Beijing, China
+Zheng Ge - 1.Beijing MEGVII Technology Co., Ltd., Beijing, China
+Liang Zhao - 1.Beijing MEGVII Technology Co., Ltd., Beijing, China
+Jianjian Sun - 1.Beijing MEGVII Technology Co., Ltd., Beijing, China
+Chunrui Han - 1.Beijing MEGVII Technology Co., Ltd., Beijing, China
+Xiangyu Zhang - 1.Beijing MEGVII Technology Co., Ltd., Beijing, China",2024,https://onechartt.github.io/
+Personalized Visualization Recommendation,https://dl.acm.org/doi/10.1145/3538703,,2022,
+Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots,https://aclanthology.org/2025.findings-naacl.164/,"Chengyue Wu - 1.The University of Hong Kong, 2.ARC Lab,Tencent PCG
+Zhixuan Liang - 1.The University of Hong Kong
+Yixiao Ge - 2.ARC Lab,Tencent PCG
+Qiushan Guo - 1.The University of Hong Kong
+Zeyu Lu - 3.Shanghai Jiao Tong University
+Jiahao Wang - 1.The University of Hong Kong
+Ying Shan - 2.ARC Lab,Tencent PCG
+Ping Luo - 1.The University of Hong Kong",2025,https://github.com/TencentARC/Plot2Code
+PlotQA: Reasoning over Scientific Plots,https://openaccess.thecvf.com/content_WACV_2020/papers/Methani_PlotQA_Reasoning_over_Scientific_Plots_WACV_2020_paper.pdf?utm_source=chatgpt.com,"Nitesh Methani - Department of Computer Science and Engineering Robert Bosch Centre for Data Science and AI (RBC-DSAI)Indian Institute of Technology Madras,Chennai,India
+Pritha Ganguly - Department of Computer Science and Engineering Robert Bosch Centre for Data Science and AI (RBC-DSAI)Indian Institute of Technology Madras,Chennai,India
+Mitesh M.Khapra - Department of Computer Science and Engineering Robert Bosch Centre for Data Science and AI (RBC-DSAI)Indian Institute of Technology Madras,Chennai,India
+Pratyush Kumar - Department of Computer Science and Engineering Robert Bosch Centre for Data Science and AI (RBC-DSAI)Indian Institute of Technology Madras,Chennai,India",2020,"OCR模型：https://github.com/tesseract-ocr/tesseract
+数据集： bit.ly/PlotQA."
+Promises and Pitfalls: Using Large Language Models to Generate Visualization Items,https://ieeexplore.ieee.org/document/10670418,"Yuan Cui, Lily W. Ge, Fumeng Yang, Matthew Kay - 1.Northwestern University
+Yiren Ding, Lane Harrison - 1.Worcester Polytechnic Institute",2025, https://osf.io/ysrhq
+Representing Charts as Text for Language Models:An In-Depth Study of Question Answering for Bar Charts,https://research.adobe.com/publication/representing-charts-as-text-for-language-models-an-in-depth-study-of-question-answering-for-bar-charts/,"Victor Soares Bursztyn - Adobe Research
+Jane Hoffswell - Adobe Research
+Eunyee Koh - Adobe Research
+Shunan Guo - Adobe Research",2024,无
+SNIL: Generating Sports News From Insights With Large Language Models,https://ieeexplore.ieee.org/document/10507016,"Liqi Cheng - 1.Zhejiang University
+Dazhen Deng - 1.Zhejiang University
+Xiao Xie - 1.Zhejiang University
+Rihong Qiu - 1.Zhejiang University
+Mingliang Xu - 1.Zhengzhou University
+Yingcai Wu - 1.Zhejiang University",2025,无
+STL-CQA: Structure-based Transformers with Localization and Encoding for Chart Question Answering,https://aclanthology.org/2020.emnlp-main.264/,"Hrituraj Singh - Adobe Research
+Sumit Shekhar - Adobe Research",2020,无
+SYNCHART: SYNTHESIZING CHARTS FROM LANGUAGE MODELS,https://arxiv.org/abs/2409.16517,"Mengchen Liu - Microsoft
+Qixiu Li - Microsoft
+Dongdong Chen - Microsoft
+Dong Chen - Microsoft
+Jianmin Bao - Microsoft
+Yunsheng Li - Microsoft",2024,无
+Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation,https://aclanthology.org/2025.acl-long.855/,"Yue Yang – 1.University of Pennsylvania, 2.Allen Institute for Artificial Intelligence
+Ajay Patel – 1.University of Pennsylvania, 2.Allen Institute for Artificial Intelligence
+Matt Deitke – 2.Allen Institute for Artificial Intelligence
+Tanmay Gupta – 2.Allen Institute for Artificial Intelligence
+Luca Weihs – 2.Allen Institute for Artificial Intelligence
+Andrew Head – 1.University of Pennsylvania, 2.Allen Institute for Artificial Intelligence
+Mark Yatskar – 1.University of Pennsylvania, 2.Allen Institute for Artificial Intelligence
+Chris Callison-Burch – 1.University of Pennsylvania
+Ranjay Krishna – 2.Allen Institute for Artificial Intelligence
+Aniruddha Kembhavi – 2.Allen Institute for Artificial Intelligence
+Christopher Clark – 2.Allen Institute for Artificial Intelligence",2025,yueyang1996.github.io/cosyn
+SmartMLVs: LLM-enabled Multiple Linked Views Generation for Interactive Visualization,https://dblp.org/rec/conf/pacificvis/QiuWHGZL025.html,"Tian Qiu - Fudan University
+Fen Wang - Henan Institute of Advanced Technology, Zhengzhou University
+Jincheng Li - Beijing Normal University
+Shaohua Huang - Tongji University
+Meng Guo - Fudan University
+Siming Chen - Fudan University
+Yuheng Zhao - Fudan University",2025,无
+Smartboard: Visual Exploration of Team Tactics with LLM Agent,https://ieeexplore.ieee.org/document/10670515,"Ziao Liu - 1.Department of Sports Science, Zhejiang University, 2.State Key Lab of CAD&CG, Zhejiang University
+Xiao Xie - 1.Department of Sports Science, Zhejiang University
+Moqi He - 1.State Key Lab of CAD&CG, Zhejiang University
+Wenshuo Zhao - 1.State Key Lab of CAD&CG, Zhejiang University
+Yihong Wu - 1.State Key Lab of CAD&CG, Zhejiang University
+Liqi Cheng - 1.State Key Lab of CAD&CG, Zhejiang University
+Hui Zhang - 1.Department of Sports Science, Zhejiang University
+Yingcai Wu - 1.State Key Lab of CAD&CG, Zhejiang University",2024,
+State of the Art of LLM-Enabled Interaction with Visualization,https://arxiv.org/abs/2601.14943,,2026,
+StyleRF-VolVis: Style transfer of neural radiance fields for expressive volume visualization,https://ieeexplore.ieee.org/document/10670437,,2024,
+Supporting expressive and faithful pictorial visualization design with visual style transfer,https://ieeexplore.ieee.org/document/10874248,,2022,
+"Synthesize Step-by-Step:Tools,Templates and LLMs as Data Generators for Reasoning-Based Chart VQA",https://cvpr.thecvf.com/virtual/2024/poster/30055?,"Zhuowan Li - 1.Johns Hopkins University
+Bhavan Jasani - 2.AWS AI Labs
+Peng Tang - 2.AWS AI Labs
+Shabnam Ghadar - 2.AWS AI Labs",2023,无
+Table2Charts: Recommending Charts by Learning Shared Table Representations,https://www.microsoft.com/en-us/research/publication/table2charts-recommending-charts-by-learning-shared-table-representations/,"Mengyu Zhou - 1.Microsoft Research
+Qingtao Li - 2.Peking University
+Xinyi He - 3.Xi'an Jiaotong University
+Yuejiang Li - 4.Tsinghua University
+Yibo Liu - 5.New York University
+Wei Ji - 1.Microsoft Corporation
+Shi Han - 1.Microsoft Research
+Yining Chen - 1.Microsoft Research
+Daxin Jiang - 1.Microsoft Research",2021,https://github.com/microsoft/Table2Charts
+Text2Vis: A Challenging and Diverse Benchmark for Generating Multimodal Visualizations from Text,https://arxiv.org/abs/2507.19969,,2025,
+The Evolving Duet of Two Modalities: A Survey on Integrating Text and Visualization for Data Communication,https://dl.acm.org/doi/epdf/10.1145/3772318.3791962,,2026,
+The Visualization JUDGE: Can Multimodal Foundation Models GuideVisualization Design Through Visual Perception?,https://arxiv.org/abs/2410.04280,"Matthew Berger - Vanderbilt University
+Shusen Liu - Lawrence Livermore National Laboratory",2024,无
+TinyChart: Efficient Chart Understanding with Visual Token Merging and Program-of-Thoughts Learning,https://aclanthology.org/2024.emnlp-main.112/,"Liang Zhang - 未提供
+Anwen Hu - 未提供
+Haiyang Xu - 未提供
+Ming Yan - 未提供
+Yichen Xu - 未提供
+Qin Jin - 未提供
+Ji Zhang - 未提供
+Fei Huang - 未提供",2024,https://github.com/X-PLUG/mPLUGDocOwl/tree/main/TinyChart
+UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning,https://aclanthology.org/2023.emnlp-main.906/?utm_source=chatgpt.com,"Ahmed Masry - ♣York University,Canada
+Parsa Kavehzadeh - ♣York University,Canada
+Xuan Long Do - ♠Nanyang Technological University,Singapore
+Enamul Hoque - ♣York University,Canada
+Shafiq Joty - ♠Nanyang Technological University,Singapore",2023,https://github.com/visnlp/UniChart
+User-Adaptive Visualizations: An Exploration with GPT-4,https://aclanthology.org/2023.emnlp-main.906/?utm_source=chatgpt.com,"F.Yanez - University of Toronto, Canada
+C.Nobre - University of Toronto, Canada",2024,无
+VIS-Shepherd: Constructing Critic for LLM-based Data Visualization Generation,https://arxiv.org/abs/2506.13326,,2025,
+VISANATOMY:An SVG Chart Corpus with Fine-Grained Semantic Labels,https://ieeexplore.ieee.org/document/11262790,"Chen Chen - Department of Computer Science, University of Maryland, College Park, MD, USA
+Hannah K. Bako - Department of Computer Science, University of Maryland, College Park, MD, USA
+Peihong Yu - Department of Computer Science, University of Maryland, College Park, MD, USA
+John Hooker - Department of Computer Science, University of Maryland, College Park, MD, USA
+Jeffrey Joyal - Department of Computer Science, University of Maryland, College Park, MD, USA
+Simon C. Wang - Department of Computer Science, University of Maryland, College Park, MD, USA
+Samuel Kim - Department of Computer Science, University of Maryland, College Park, MD, USA
+Jessica Wu - Department of Computer Science, University of Maryland, College Park, MD, USA
+Aoxue Ding - Department of Computer Science, University of Maryland, College Park, MD, USA
+Lara Sandeep - Department of Computer Science, University of Maryland, College Park, MD, USA
+Alex Chen - Department of Computer Science, University of Maryland, College Park, MD, USA
+Chayanika Sinha - Department of Computer Science, University of Maryland, College Park, MD, USA
+Zhicheng Liu - Department of Computer Science, University of Maryland, College Park, MD, USA",2025,https://VisAnatomy.github.io/
+"VOICE: Visual Oracle for Interaction, Conversation, and Explanation",https://ieeexplore.ieee.org/document/11037292,"Donggang Jia - 1.Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia
+Alexandra Irger - 1.Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia
+Lonni Besançon - 1.Department of Science and Technology, Linköping University, 58183 Linköping, Sweden
+Ondřej Strnad - 1.Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University of Science and Technology (KAUST), Thuwal 23955, Saudi Arabia
+Deng Luo - 1.Computer, Electrical and Mathematical Science and Engineering (CEMSE) Division, King Abdullah University",2025,
+VisCoder: Fine-Tuning LLMs for Executable Python Visualization Code Generation,https://aclanthology.org/2025.findings-emnlp.160/?,"Yuansheng Ni - 1.University of Waterloo
+Ping Nie - 4.Independent Researcher
+Kai Zou - 3.Netmind.ai
+Xiang Yue - 2.Carnegie Mellon University
+Wenhu Chen - 1.University of Waterloo",2025,https://github.com/TIGER-AI-Lab/VisCoder
+VisJudge-Bench: Aesthetics and Quality Assessment of Visualizations,https://arxiv.org/abs/2510.22373,,2025,
+VisText: A Benchmark for Semantically Rich Chart Captioning,https://aclanthology.org/2023.acl-long.401/,"Benny J.Tang - MIT CSAIL
+Angie Boggust - MIT CSAIL
+Arvind Satyanarayan - MIT CSAIL",2023,https://github.com/mitvis/vistext
+Vistoryteller: Designing Data Stories with LLM Agent-Based Generation and Interactive User Control,https://dl.acm.org/doi/10.1145/3742413.3789086,,2026,
+Visualization Literacy of Multimodal Large Language Models- A Comparative Study,https://arxiv.org/abs/2407.10996,"Zhimin Li - University of Utah
+Haichao Miao - Lawrence Livermore National Laboratory
+Valerio Pascucci - University of Utah
+Shusen Liu - Lawrence Livermore National Laboratory",2024,无
+ViviDoc: Generating Interactive Documents through Human-Agent Collaboration,https://arxiv.org/abs/2603.27991,,2026,
+VizAbility:Enhancing Chart Accessibility with LLM-based Conversational Interaction,https://dl.acm.org/doi/10.1145/3654777.3676414,"Joshua Gorniak - 1.Boston College
+Yoon Kim - 2.Massachusetts Institute of Technology
+Donglai Wei - 1.Boston College
+Nam Wook Kim - 1.Boston College",2024, https:// - dwr.bc.edu/vizability
+VizChat: enhancing learning analytics dashboards with contextualised explanations using multimodal generative AI chatbots,https://link.springer.com/chapter/10.1007/978-3-031-64299-9_13,,2024,
+VizML: A Machine Learning Approach to Visualization Recommendation,https://dl.acm.org/doi/10.1145/3290605.3300358,,2019,
+Vizability: Enhancing chart accessibility with llm-based conversational interaction,https://dl.acm.org/doi/10.1145/3654777.3676414,,2024,
+WaitGPT: Monitoring and Steering Conversational LLM Agent in Data Analysis with On-the-Fly Code Visualization,https://dl.acm.org/doi/10.1145/3654777.3676374,"Liwenhan Xie - 1.Hong Kong University of Science and Technology
+Chengbo Zheng - 1.Hong Kong University of Science and Technology
+Haijun Xia - 1.University of California, San Diego
+Huamin Qu - 1.Hong Kong University of Science and Technology
+Chen Zhu-Tian - 1.University of Minnesota Twin Cities",2024,无
+Waltzboard: Multi-Criteria Automated Dashboard Design for Exploratory Analysis,https://ieeexplore.ieee.org/document/11021024,"Jiwon Choi - Sungkyunkwan University
+Jaemin Jo - Sungkyunkwan University",2025,https://github.com/jiwnchoi/Waltz
+nvBench:A Large-Scale Synthesized Dataset for Cross-Domain Natural Language to Visualization Task,https://arxiv.org/abs/2112.12926,"Yuyu Luo - Tsinghua University,China
+Jiawei Tang - American School of Doha,Qatar
+Guoliang Li - Tsinghua University,China",2021,https://sites.google.com/view/nvbench/
+nvbench 2.0: Resolving ambiguity in text-to-visualization through stepwise reasoning,https://arxiv.org/abs/2503.12880,,2025,
