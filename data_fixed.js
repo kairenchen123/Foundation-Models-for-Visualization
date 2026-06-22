@@ -1873,20 +1873,6 @@ const papers = [
     "image": "figure/VizML A Machine Learning Approach to Visualization Recommendation.png"
   },
   {
-    "title": "Vizability: Enhancing chart accessibility with llm-based conversational interaction",
-    "year": "2024",
-    "keywords": "Accessibility, Chart Understanding, LLM, Visual Impairment, Conversational AI, Screen Reader",
-    "abstract": "Traditional accessibility methods like alternative text and data tables typically underrepresent data visualization’s full potential. Keyboard-based chart navigation has emerged as a potential solution, yet efficient data exploration remains challenging. We present VizAbility, a novel system that enriches chart content navigation with conversational interaction, enabling users to use natural language for querying visual data trends. VizAbility adapts to the user’s navigation context for improved response accuracy and facilitates verbal command-based chart navigation. Furthermore, it can address queries for contextual information, designed to address the needs of visually impaired users. We designed a large language model (LLM)-based pipeline to address these user queries, leveraging chart data & encoding, user context, and external web knowledge. We conducted both qualitative and quantitative studies to evaluate VizAbility’s multimodal approach. We discuss further opportunities based on the results, including improved benchmark testing, incorporation of vision models, and integration with visualization workflows.",
-    "code_link": "",
-    "doi": "https://dl.acm.org/doi/10.1145/3654777.3676414",
-    "categories": [
-      "Multimodal Interaction Perception",
-      "Interaction Generation and Recommendation"
-    ],
-    "authors": "Joshua Gorniak, Yoon Kim, Donglai Wei, Nam Wook Kim",
-    "image": "figure/Vizability Enhancing chart accessibility with llm-based conversational interaction.png"
-  },
-  {
     "title": "WaitGPT: Monitoring and Steering Conversational LLM Agent in Data Analysis with On-the-Fly Code Visualization",
     "year": "2024",
     "keywords": "Large language models\nData analysis\nUser interface design\nConversational agents\nInteractive visualization",
