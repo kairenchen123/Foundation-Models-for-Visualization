@@ -1,0 +1,1071 @@
+[
+  {
+    "title": "A Pragmatics-based Approach to Proactive Digital Assistants for Data Exploration",
+    "year": "2025",
+    "categories": [
+      "Visualization Recommendation",
+      "Interaction Generation and Recommendation",
+      "Multimodal Interaction Perception"
+    ]
+  },
+  {
+    "title": "A Review and Collation of Graphical Perception Knowledge for Visualization Recommendation",
+    "year": "2023",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "A Survey on (M)LLM-Based GUI Agents",
+    "year": "2025",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "A Systematic Review of Visualization Recommendation Systems: Goals, Strategies, Interfaces, and Evaluations",
+    "year": "2024",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "ASKCHART: UNIVERSAL CHART UNDERSTANDING THROUGH TEXTUAL ENHANCEMENT",
+    "year": "2024",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "AVA: Towards Autonomous Visualization Agents through Visual Perception-Driven Decision-Making",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Advancing Multimodal Large Language Models in Chart Question Answering with Visualization-Referenced Instruction Tuning",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "An Empirical Evaluation of the GPT-4 Multimodal Language Model on Visualization Literacy Tasks",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "An Evaluation-Focused Framework for Visualization Recommendation Algorithms",
+    "year": "2021",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Automated Data Visualization from Natural Language via Large Language Models: An Exploratory Study",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Automated Visualization Code Synthesis via Multi-Path Reasoning and Feedback-Driven Optimizations",
+    "year": "2026",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Autonomous GIS: the next-generation AI-powered GIS",
+    "year": "2023",
+    "categories": [
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "BIGCHARTS-R1: Enhanced Chart Reasoning with Visual Reinforcement Finetuning",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Bavisitter: Integrating Design Guidelines into Large Language Models for Visualization Authoring",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Beyond Generating Code: Evaluating GPT on a Data Visualization Course",
+    "year": "2023",
+    "categories": [
+      "High-level Semantic Cognition",
+      "Conditional Visualization Synthesis",
+      "Multi-view and Narrative Visualization Composition",
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "Boosting Chart-to-Code Generation in MLLM via Dual Preference-Guided Refinement",
+    "year": "2025",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "CHARTCAP: Mitigating Hallucination of Dense Chart Captioning",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "CHARTEDIT: How Far Are MLLMs From Automating Chart Analysis? Evaluating MLLMs’ Capability via Chart Editing",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "CHARTMASTER: ADVANCING CHART-TO-CODE GENERATION WITH REAL-WORLD CHARTS AND CHART SIMILARITY REINFORCEMENT LEARNING",
+    "year": "2025",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "CHARTMIMIC:EVALUATING LMM'S CROSS-MODAL REASONING CAPABILITY VIA CHART-TO-CODE GENERATION",
+    "year": "2025",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "CHARTMOE:MIXTURE OF DIVERSELY ALIGNED EXPERT CONNECTOR FOR CHART UNDERSTANDING",
+    "year": "2025",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition",
+      "Code-level Visualization Reconstruction",
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "CHARTQAPRO :A More Diverse and Challenging Benchmark for Chart Question Answering",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "CharXiv: Charting Gaps in Realistic Chart Understanding in Multimodal LLMs",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Chart-R1:Chain-of-Thought Supervision and Reinforcement for Advanced Chart Reasoner",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Chart-based Reasoning: Transferring Capabilities from LLMs to VLMs",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Chart-to-Text: A Large-Scale Benchmark for Chart Summarization",
+    "year": "2022",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartBench: A Benchmark for Complex Visual Reasoning in Charts",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartCoder: Advancing Multimodal Large Language Model for Chart-to-Code Generation",
+    "year": "2025",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "ChartE3: A Comprehensive Benchmark for End-to-End Chart Editing",
+    "year": "2026",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "ChartEditBench: Evaluating Grounded Multi-Turn Chart Editing in Multimodal Language Models",
+    "year": "2026",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "ChartGPT: Leveraging LLMs to Generate Charts From Abstract Natural Language",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "ChartGalaxy: A Dataset for Infographic Chart Understanding and Generation",
+    "year": "2025",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition",
+      "Code-level Visualization Reconstruction",
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "ChartGemma:Visual Instruction-tuning for Chart Reasoning in the Wild",
+    "year": "2025",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartInsights: Evaluating Multimodal Large Language Models for Low-Level Chart Question Answering",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartInstruct:Instruction Tuning for Chart Comprehension and Reasoning",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartLlama: A Multimodal LLM for Chart Understanding and Generation",
+    "year": "2023",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition",
+      "Code-level Visualization Reconstruction",
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "ChartM3: Benchmarking Chart Editing with Multimodal Instructions",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "ChartMind: A Comprehensive Benchmark for Complex Real-world Multimodal Chart Question Answering",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartMuseum: Testing Visual Reasoning Capabilities of Large Vision-Language Models",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartOCR: Data Extraction from Charts Images via a Deep Hybrid Framework",
+    "year": "2021",
+    "categories": [
+      "Low-level Information Perception"
+    ]
+  },
+  {
+    "title": "ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning",
+    "year": "2022",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartSketcher: Reasoning with Multimodal Feedback and Reflection for Chart Understanding",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ChartX and ChartVLM: A Versatile Benchmark and Foundation Model for Complicated Chart Reasoning",
+    "year": "2025",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition",
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "ChartifyText: Automated Chart Generation from Data-Involved Texts via LLM",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Charting the Future: Using Chart Question-Answering for Scalable Evaluation of LLM-Driven Data Visualizations",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Chartreformer: Natural language-driven chart image editing",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Charts Are Not Images: On the Challenges of Scientific Chart Editing",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Chat2vis: Generating data visualizations via natural language using chatgpt, codex and gpt-3 large language models",
+    "year": "2023",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Context-Aware Chart Element Detection",
+    "year": "2023",
+    "categories": [
+      "Low-level Information Perception"
+    ]
+  },
+  {
+    "title": "DASHBOARDQA: Benchmarking Multimodal Agents for Question Answering on Interactive Dashboards",
+    "year": "2025",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "DATANARRATIVE: Automated Data-Driven Storytelling with Visualizations and Texts",
+    "year": "2024",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "DEPLOT:One-shot visual language reasoning by plot-to-table translation",
+    "year": "2023",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "DVQA: Understanding Data Visualizations via Question Answering",
+    "year": "2018",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Dashchat: Interactive authoring of industrial dashboard design prototypes through conversation with llm-powered agents",
+    "year": "2026",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "Data Formulator: AI-Powered Concept-Driven Visualization Authoring",
+    "year": "2023",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Data visualization recommendation: Literature review and future perspectives",
+    "year": "2026",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Deconstructing Categorization in Visualization Recommendation: A Taxonomy and Comparative Study",
+    "year": "2021",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Deep Colormap Extraction From Visualization",
+    "year": "2021",
+    "categories": [
+      "Low-level Information Perception",
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Distill Visual Chart Reasoning Ability from LLMs to MLLMs",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Diverse interaction recommendation for public users exploring multi-view visualization using deep learning",
+    "year": "2022",
+    "categories": [
+      "Interaction Generation and Recommendation"
+    ]
+  },
+  {
+    "title": "DracoGPT:Extracting Visualization Design Preferences from Large Language Models",
+    "year": "2025",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "DuetSVG:Unified Multimodal SVG Generation with Internal Visual Guidance",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "DynaVis: Dynamically Synthesized UI Widgets for Visualization Editing",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis",
+      "Interaction Generation and Recommendation"
+    ]
+  },
+  {
+    "title": "Enhancing Data Literacy On-Demand: LLMs as Guides for Novices in Chart Interpretation",
+    "year": "2024",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation"
+    ]
+  },
+  {
+    "title": "Ephemera: Language as a Virus-AI-driven Interactive and Immersive Art Installation",
+    "year": "2024",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation"
+    ]
+  },
+  {
+    "title": "Evaluating the Semantic Profiling Abilities of LLMs for Natural Language Utterances in Data Visualization",
+    "year": "2024",
+    "categories": [
+      "Multimodal Interaction Perception"
+    ]
+  },
+  {
+    "title": "Exploring the Capability of LLMs in Performing Low-Level Visual Analytic Tasks on SVG Data Visualizations",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition",
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "FERRET-UI 2: MASTERING UNIVERSAL USER INTERFACE UNDERSTANDING ACROSS PLATFORMS",
+    "year": "2025",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation"
+    ]
+  },
+  {
+    "title": "Ferret-UI:Grounded Mobile UI Understanding with Multimodal LLMs",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "From data to story: Towards automatic animated data video creation with llm-based multi-agent systems",
+    "year": "2024",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "GVVST: Image-driven style extraction from graph visualizations for visual style transfer",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Generative Data Visualization with JSON Representations",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "GenoREC: A Recommendation System for Interactive Genomics Data Visualization",
+    "year": "2022",
+    "categories": [
+      "Visualization Recommendation",
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "How Aligned are Human Chart Takeaways and LLM Predictions? A Case Study on Bar Charts with Varying Layouts",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "How does automation shape the process of narrative visualization: A survey of tools",
+    "year": "2023",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "IGenBench: Benchmarking the Reliability of Text-to-Infographic Generation",
+    "year": "2026",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Iluvui: Instruction-tuned language-vision modeling of uis from machine conversations",
+    "year": "2025",
+    "categories": [
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "InfoChartQA: A Benchmark for Multimodal Question Answering on Infographic Charts",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "InfographicVQA",
+    "year": "2022",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "InkSight: Leveraging Sketch Interaction for Documenting Chart Findings in Computational Notebooks",
+    "year": "2023",
+    "categories": [
+      "Multimodal Interaction Perception"
+    ]
+  },
+  {
+    "title": "InterChat: Enhancing Generative Visual Analytics using Multimodal Interactions",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis",
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation"
+    ]
+  },
+  {
+    "title": "Is GPT-4V (ision) All You Need for Automating Academic Data Visualization? Exploring Vision-Language Models’ Capability in Reproducing Academic Charts",
+    "year": "2024",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "KG4Vis: A Knowledge Graph-Based Approach for Visualization Recommendation",
+    "year": "2021",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Knownet: Guided health information seeking from llms via knowledge graph integration",
+    "year": "2024",
+    "categories": [
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "LEVA: Using Large Language Models to Enhance Visual Analytics",
+    "year": "2024",
+    "categories": [
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "LIDA:A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models",
+    "year": "2023",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "LLM4Vis: Explainable Visualization Recommendation using ChatGPT",
+    "year": "2023",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Learning to Recommend Visualizations from Data",
+    "year": "2021",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Leveraging foundation models for crafting narrative visualization: A survey",
+    "year": "2025",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "Libra: An interaction model for data visualization",
+    "year": "2025",
+    "categories": [
+      "Interaction Generation and Recommendation"
+    ]
+  },
+  {
+    "title": "Lightva: Lightweight visual analytics with llm agent-based task planning and execution",
+    "year": "2024",
+    "categories": [
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "MATCHA: Enhancing Visual Language Pretraining with Math Reasoning and Chart Derendering",
+    "year": "2023",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition",
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "METAL: A Multi-Agent Framework for Chart Generation with Test-Time Scaling",
+    "year": "2025",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "MMC: Advancing Multimodal Chart Understanding with Large-scale Instruction Tuning",
+    "year": "2024",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "MapIO: A Gestural and Conversational Interface for Tactile Maps",
+    "year": "2025",
+    "categories": [
+      "Multimodal Interaction Perception"
+    ]
+  },
+  {
+    "title": "MatPlotAgent: Method and Evaluation for LLM-Based Agentic Scientific Data Visualization",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "MisVisFix: An Interactive Dashboard for Detecting, Explaining, and Correcting Misleading Visualizations using Large Language Models",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Multimodal deepresearcher: Generating text-chart interleaved reports from scratch with agentic framework",
+    "year": "2026",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition",
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "NL2Color: Refining Color Palettes for Charts with Natural Language",
+    "year": "2023",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "NL2Dashboard: A Lightweight and Controllable Framework for Generating Dashboards with LLMs",
+    "year": "2026",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "NVAGENT: Automated Data Visualization from Natural Language via Collaborative Agent Workflow",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Natural Language Dataset Generation Framework for Visualizations Powered by Large Language Models",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition",
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Natural Language to Visualization by Neural Machine Translation",
+    "year": "2021",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Notable: On-the-fly assistant for data storytelling in computational notebooks",
+    "year": "2023",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "On Pre-training of Multimodal Language Models Customized for Chart Understanding",
+    "year": "2024",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "OneChart: Purify the Chart Structural Extraction via One Auxiliary Token",
+    "year": "2024",
+    "categories": [
+      "Low-level Information Perception"
+    ]
+  },
+  {
+    "title": "Personalized Visualization Recommendation",
+    "year": "2022",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Plot2Code: A Comprehensive Benchmark for Evaluating Multi-modal Large Language Models in Code Generation from Scientific Plots",
+    "year": "2025",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ]
+  },
+  {
+    "title": "PlotQA: Reasoning over Scientific Plots",
+    "year": "2020",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Promises and Pitfalls: Using Large Language Models to Generate Visualization Items",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Representing Charts as Text for Language Models:An In-Depth Study of Question Answering for Bar Charts",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "SNIL: Generating Sports News From Insights With Large Language Models",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis",
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "STL-CQA: Structure-based Transformers with Localization and Encoding for Chart Question Answering",
+    "year": "2020",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "SYNCHART: SYNTHESIZING CHARTS FROM LANGUAGE MODELS",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Scaling Text-Rich Image Understanding via Code-Guided Synthetic Multimodal Data Generation",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition",
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "SmartMLVs: LLM-enabled Multiple Linked Views Generation for Interactive Visualization",
+    "year": "2025",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "Smartboard: Visual Exploration of Team Tactics with LLM Agent",
+    "year": "2024",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "State of the Art of LLM-Enabled Interaction with Visualization",
+    "year": "2026",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "StyleRF-VolVis: Style transfer of neural radiance fields for expressive volume visualization",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Supporting expressive and faithful pictorial visualization design with visual style transfer",
+    "year": "2022",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "Synthesize Step-by-Step:Tools,Templates and LLMs as Data Generators for Reasoning-Based Chart VQA",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Table2Charts: Recommending Charts by Learning Shared Table Representations",
+    "year": "2021",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Text2Vis: A Challenging and Diverse Benchmark for Generating Multimodal Visualizations from Text",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition",
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "The Evolving Duet of Two Modalities: A Survey on Integrating Text and Visualization for Data Communication",
+    "year": "2026",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "The Visualization JUDGE: Can Multimodal Foundation Models GuideVisualization Design Through Visual Perception?",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "TinyChart: Efficient Chart Understanding with Visual Token Merging and Program-of-Thoughts Learning",
+    "year": "2024",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "UniChart: A Universal Vision-language Pretrained Model for Chart Comprehension and Reasoning",
+    "year": "2023",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "User-Adaptive Visualizations: An Exploration with GPT-4",
+    "year": "2024",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "VIS-Shepherd: Constructing Critic for LLM-based Data Visualization Generation",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "VISANATOMY:An SVG Chart Corpus with Fine-Grained Semantic Labels",
+    "year": "2025",
+    "categories": [
+      "Low-level Information Perception"
+    ]
+  },
+  {
+    "title": "VOICE: Visual Oracle for Interaction, Conversation, and Explanation",
+    "year": "2025",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "VisCoder: Fine-Tuning LLMs for Executable Python Visualization Code Generation",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "VisJudge-Bench: Aesthetics and Quality Assessment of Visualizations",
+    "year": "2025",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "VisText: A Benchmark for Semantically Rich Chart Captioning",
+    "year": "2023",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "Vistoryteller: Designing Data Stories with LLM Agent-Based Generation and Interactive User Control",
+    "year": "2026",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "Visualization Literacy of Multimodal Large Language Models- A Comparative Study",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "ViviDoc: Generating Interactive Documents through Human-Agent Collaboration",
+    "year": "2026",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "VizAbility:Enhancing Chart Accessibility with LLM-based Conversational Interaction",
+    "year": "2024",
+    "categories": [
+      "High-level Semantic Cognition"
+    ]
+  },
+  {
+    "title": "VizChat: enhancing learning analytics dashboards with contextualised explanations using multimodal generative AI chatbots",
+    "year": "2024",
+    "categories": [
+      "Multimodal Interaction Perception"
+    ]
+  },
+  {
+    "title": "VizML: A Machine Learning Approach to Visualization Recommendation",
+    "year": "2019",
+    "categories": [
+      "Visualization Recommendation"
+    ]
+  },
+  {
+    "title": "Vizability: Enhancing chart accessibility with llm-based conversational interaction",
+    "year": "2024",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation"
+    ]
+  },
+  {
+    "title": "WaitGPT: Monitoring and Steering Conversational LLM Agent in Data Analysis with On-the-Fly Code Visualization",
+    "year": "2024",
+    "categories": [
+      "Agentic Visual Analytics"
+    ]
+  },
+  {
+    "title": "Waltzboard: Multi-Criteria Automated Dashboard Design for Exploratory Analysis",
+    "year": "2025",
+    "categories": [
+      "Multi-view and Narrative Visualization Composition"
+    ]
+  },
+  {
+    "title": "nvBench:A Large-Scale Synthesized Dataset for Cross-Domain Natural Language to Visualization Task",
+    "year": "2021",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  },
+  {
+    "title": "nvbench 2.0: Resolving ambiguity in text-to-visualization through stepwise reasoning",
+    "year": "2025",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ]
+  }
+]

@@ -10,34 +10,34 @@
   <style>
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
     :root {
-      --bg: #f8fafc;
+      --bg: #faf8f4;
       --surface: #ffffff;
-      --surface2: #f1f5f9;
-      --border: rgba(0,0,0,0.08);
-      --border2: rgba(0,0,0,0.12);
-      --text: #1e293b;
-      --text2: #64748b;
-      --text3: #94a3b8;
+      --surface2: #f3efe8;
+      --border: rgba(20,16,8,0.07);
+      --border2: rgba(20,16,8,0.12);
+      --text: #1a1612;
+      --text2: #6b6358;
+      --text3: #a39a8c;
       --accent: #10b981;
       --accent2: #3b82f6;
       --radius: 14px;
       --radius2: 8px;
-      --shadow: 0 4px 20px rgba(0,0,0,0.08);
-      --shadow-lg: 0 12px 40px rgba(0,0,0,0.12);
+      --shadow: 0 1px 2px rgba(20,16,8,0.04), 0 4px 16px rgba(20,16,8,0.04);
+      --shadow-lg: 0 4px 12px rgba(20,16,8,0.06), 0 16px 40px rgba(20,16,8,0.08);
     }
     [data-theme="dark"] {
-      --bg: #07090f;
-      --surface: #0e1220;
-      --surface2: #141929;
-      --border: rgba(255,255,255,0.06);
-      --border2: rgba(255,255,255,0.10);
-      --text: #e2e8f0;
-      --text2: #8892a4;
-      --text3: #4a5568;
+      --bg: #0e0d0b;
+      --surface: #16140f;
+      --surface2: #1d1a14;
+      --border: rgba(255,250,240,0.06);
+      --border2: rgba(255,250,240,0.10);
+      --text: #ece6d8;
+      --text2: #8a8275;
+      --text3: #5a5347;
       --accent: #6ee7b7;
       --accent2: #3b82f6;
-      --shadow: 0 4px 20px rgba(0,0,0,0.3);
-      --shadow-lg: 0 12px 40px rgba(0,0,0,0.4);
+      --shadow: 0 1px 2px rgba(0,0,0,0.3), 0 4px 16px rgba(0,0,0,0.3);
+      --shadow-lg: 0 4px 12px rgba(0,0,0,0.4), 0 16px 40px rgba(0,0,0,0.45);
     }
     html { scroll-behavior: smooth; }
     body {
@@ -49,122 +49,16 @@
       transition: background-color 0.3s, color 0.3s;
     }
     /* ============================================================
-       BACKGROUND LAYERS
+       BACKGROUND — solid color + ultra-fine grain
        ============================================================ */
-
-    /* Layer 1: Canvas particle field */
-    #bg-canvas {
+    .bg-grain {
       position: fixed; inset: 0; pointer-events: none; z-index: 1;
+      opacity: 0.35; mix-blend-mode: multiply;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 0.06 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
     }
-
-    /* Layer 2: Gradient orbs */
-    .bg-orbs { position: fixed; inset: 0; pointer-events: none; z-index: 2; overflow: hidden; }
-    .orb {
-      position: absolute; border-radius: 50%; pointer-events: none;
-      will-change: transform, opacity;
-    }
-    .orb-1 {
-      width: 700px; height: 700px;
-      background: radial-gradient(circle at 40% 40%, rgba(16,185,129,0.35) 0%, rgba(16,185,129,0) 70%);
-      top: -280px; left: -280px;
-      animation: orbFloat1 28s ease-in-out infinite;
-    }
-    .orb-2 {
-      width: 600px; height: 600px;
-      background: radial-gradient(circle at 60% 60%, rgba(59,130,246,0.3) 0%, rgba(59,130,246,0) 70%);
-      top: 30%; right: -200px;
-      animation: orbFloat2 22s ease-in-out infinite;
-    }
-    .orb-3 {
-      width: 500px; height: 500px;
-      background: radial-gradient(circle at 50% 50%, rgba(139,92,246,0.28) 0%, rgba(139,92,246,0) 70%);
-      bottom: -150px; left: 25%;
-      animation: orbFloat3 32s ease-in-out infinite;
-    }
-    .orb-4 {
-      width: 350px; height: 350px;
-      background: radial-gradient(circle at 50% 50%, rgba(6,182,212,0.2) 0%, rgba(6,182,212,0) 70%);
-      bottom: 10%; right: 10%;
-      animation: orbFloat4 25s ease-in-out infinite;
-    }
-    .orb-5 {
-      width: 280px; height: 280px;
-      background: radial-gradient(circle at 50% 50%, rgba(249,115,22,0.15) 0%, rgba(249,115,22,0) 70%);
-      top: 20%; left: 60%;
-      animation: orbFloat5 18s ease-in-out infinite;
-    }
-
-    [data-theme="dark"] .orb-1 {
-      background: radial-gradient(circle at 40% 40%, rgba(110,231,183,0.4) 0%, rgba(110,231,183,0) 70%);
-    }
-    [data-theme="dark"] .orb-3 {
-      background: radial-gradient(circle at 50% 50%, rgba(244,114,182,0.35) 0%, rgba(244,114,182,0) 70%);
-    }
-    [data-theme="dark"] .orb-4 {
-      background: radial-gradient(circle at 50% 50%, rgba(59,130,246,0.3) 0%, rgba(59,130,246,0) 70%);
-    }
-    [data-theme="dark"] .orb-5 {
-      background: radial-gradient(circle at 50% 50%, rgba(167,139,250,0.3) 0%, rgba(167,139,250,0) 70%);
-    }
-
-    @keyframes orbFloat1 {
-      0%,100% { transform: translate(0,0) scale(1); }
-      20% { transform: translate(60px,-50px) scale(1.08); }
-      45% { transform: translate(30px,70px) scale(0.95); }
-      70% { transform: translate(-50px,30px) scale(1.05); }
-    }
-    @keyframes orbFloat2 {
-      0%,100% { transform: translate(0,0) scale(1); }
-      25% { transform: translate(-70px,40px) scale(1.1); }
-      55% { transform: translate(-30px,-60px) scale(0.92); }
-      80% { transform: translate(50px,-20px) scale(1.06); }
-    }
-    @keyframes orbFloat3 {
-      0%,100% { transform: translate(0,0) scale(1); }
-      30% { transform: translate(50px,60px) scale(1.07); }
-      60% { transform: translate(-40px,30px) scale(0.96); }
-      85% { transform: translate(20px,-50px) scale(1.04); }
-    }
-    @keyframes orbFloat4 {
-      0%,100% { transform: translate(0,0) scale(1); }
-      35% { transform: translate(-60px,-40px) scale(1.12); }
-      65% { transform: translate(40px,-30px) scale(0.94); }
-      85% { transform: translate(20px,60px) scale(1.08); }
-    }
-    @keyframes orbFloat5 {
-      0%,100% { transform: translate(0,0) scale(1); }
-      40% { transform: translate(40px,50px) scale(1.15); }
-      70% { transform: translate(-30px,20px) scale(0.9); }
-    }
-
-    /* Layer 3: Subtle dot grid */
-    .bg-grid {
-      position: fixed; inset: 0; pointer-events: none; z-index: 3;
-      background-image: radial-gradient(circle, rgba(100,116,139,0.12) 1px, transparent 1px);
-      background-size: 32px 32px;
-      mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 0%, transparent 70%);
-      -webkit-mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 0%, transparent 70%);
-    }
-
-    /* Layer 4: Vignette */
-    .bg-vignette {
-      position: fixed; inset: 0; pointer-events: none; z-index: 4;
-      background: radial-gradient(ellipse 120% 80% at 50% 0%, transparent 50%, rgba(0,0,0,0.08) 100%);
-    }
-
-    /* Ambient glow pulse on header area */
-    .bg-glow {
-      position: fixed; top: -200px; left: 50%; transform: translateX(-50%);
-      width: 900px; height: 500px; pointer-events: none; z-index: 2;
-      background: radial-gradient(ellipse, rgba(16,185,129,0.06) 0%, transparent 70%);
-      animation: glowPulse 6s ease-in-out infinite;
-    }
-    [data-theme="dark"] .bg-glow {
-      background: radial-gradient(ellipse, rgba(110,231,183,0.08) 0%, transparent 70%);
-    }
-    @keyframes glowPulse {
-      0%,100% { opacity: 0.6; transform: translateX(-50%) scale(1); }
-      50% { opacity: 1; transform: translateX(-50%) scale(1.15); }
+    [data-theme="dark"] .bg-grain {
+      opacity: 0.5; mix-blend-mode: screen;
+      background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 0.98  0 0 0 0 0.92  0 0 0 0.05 0'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
     }
     /* HEADER */
     header { position: relative; z-index: 10; padding: 60px 40px 40px; text-align: center; }
@@ -345,7 +239,6 @@
       -webkit-box-orient: vertical; overflow: hidden;
     }
     .card-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; }
-    .card-tags { display: flex; flex-wrap: wrap; gap: 5px; margin-top: auto; }
     .card-tag { padding: 3px 9px; border-radius: 100px; font-size: 10px; font-weight: 500; border: 1px solid; }
     /* Tag colors */
     .tag-l1 { color:#fbbf24; border-color:rgba(251,191,36,.3); background:rgba(251,191,36,.07); }
@@ -418,8 +311,10 @@
     /* SCROLLBAR */
     ::-webkit-scrollbar { width: 6px; height: 6px; }
     ::-webkit-scrollbar-track { background: transparent; }
-    ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); border-radius: 3px; }
-    ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.18); }
+    ::-webkit-scrollbar-thumb { background: rgba(0,0,0,0.15); border-radius: 3px; }
+    ::-webkit-scrollbar-thumb:hover { background: rgba(0,0,0,0.25); }
+    [data-theme="dark"] ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.1); }
+    [data-theme="dark"] ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.18); }
     /* CARD ANIMATION */
     .paper-card { opacity: 0; transform: translateY(20px); }
     .paper-card.visible { animation: cardEntrance 0.4s ease forwards; }
@@ -438,17 +333,7 @@
 
 <script src="data_fixed.js"></script>
 
-<canvas id="bg-canvas"></canvas>
-<div class="bg-glow"></div>
-<div class="bg-orbs">
-  <div class="orb orb-1"></div>
-  <div class="orb orb-2"></div>
-  <div class="orb orb-3"></div>
-  <div class="orb orb-4"></div>
-  <div class="orb orb-5"></div>
-</div>
-<div class="bg-grid"></div>
-<div class="bg-vignette"></div>
+<div class="bg-grain"></div>
 
 <header>
   <div class="header-badge">VISUAL LITERATURE DATABASE</div>
@@ -588,13 +473,15 @@ const GROUPS = {
 
 /* Old category → new sub-task mapping. Some old cats span multiple sub-tasks. */
 const OLD_TO_NEW = {
-  'Low-level Information Perception':       [{ group: 'lx', sub: 'l1' }],
-  'High-level Semantic Cognition':          [{ group: 'lx', sub: 'l2' }],
-  'Code-level Visualization Reconstruction':[{ group: 'lx', sub: 'l3' }],
-  'Visualization Recommendation':          [{ group: 'gs', sub: 'g1' }],
-  'Conditional Visualization Synthesis':   [{ group: 'gs', sub: 'g2' }],
+  'Low-level Information Perception':        [{ group: 'lx', sub: 'l1' }],
+  'High-level Semantic Cognition':           [{ group: 'lx', sub: 'l2' }],
+  'Code-level Visualization Reconstruction':  [{ group: 'lx', sub: 'l3' }],
+  'Visualization Recommendation':            [{ group: 'gs', sub: 'g1' }],
+  'Conditional Visualization Synthesis':      [{ group: 'gs', sub: 'g2' }],
   'Multi-view and Narrative Visualization Composition': [{ group: 'gs', sub: 'g3' }],
-  'Visualization Interaction':             [{ group: 'jh', sub: 'j1' }, { group: 'jh', sub: 'j2' }, { group: 'jh', sub: 'j3' }],
+  'Multimodal Interaction Perception':      [{ group: 'jh', sub: 'j1' }],
+  'Interaction Generation and Recommendation': [{ group: 'jh', sub: 'j2' }],
+  'Agentic Visual Analytics':                [{ group: 'jh', sub: 'j3' }],
 };
 
 const TAG_CLASS = {
@@ -1043,103 +930,8 @@ themeToggle.addEventListener('click', () => {
 });
 
 /* ============================================================
-   BACKGROUND PARTICLE FIELD
+   (Background particle field removed — solid color + grain only)
    ============================================================ */
-(function initBgCanvas() {
-  const canvas = document.getElementById('bg-canvas');
-  const ctx = canvas.getContext('2d');
-  let W, H, particles = [], animId;
-  const isDark = () => document.documentElement.hasAttribute('data-theme');
-
-  function resize() {
-    W = canvas.width  = window.innerWidth;
-    H = canvas.height = window.innerHeight;
-  }
-  resize();
-  window.addEventListener('resize', resize, { passive: true });
-
-  /* build connections when two dots are within threshold */
-  function getConnections(a) {
-    const threshold = isDark() ? 160 : 130;
-    return particles.filter(b => {
-      if (b === a) return false;
-      const dx = a.x - b.x, dy = a.y - b.y;
-      return Math.sqrt(dx*dx + dy*dy) < threshold;
-    });
-  }
-
-  class Particle {
-    constructor() { this.reset(true); }
-    reset(init) {
-      this.x  = Math.random() * W;
-      this.y  = init ? Math.random() * H : (Math.random() < 0.5 ? -8 : H + 8);
-      this.vx = (Math.random() - 0.5) * 0.45;
-      this.vy = (Math.random() - 0.5) * 0.45;
-      this.r  = Math.random() * 1.8 + 0.4;
-      this.baseAlpha = Math.random() * 0.35 + 0.1;
-      this.alpha = this.baseAlpha;
-      this.pulseT = Math.random() * Math.PI * 2;
-      this.pulseS = Math.random() * 0.012 + 0.004;
-    }
-    update() {
-      this.x += this.vx;
-      this.y += this.vy;
-      this.pulseT += this.pulseS;
-      this.alpha = this.baseAlpha * (0.7 + 0.3 * Math.sin(this.pulseT));
-      if (this.x < -12 || this.x > W + 12 || this.y < -12 || this.y > H + 12) this.reset(false);
-    }
-    draw() {
-      ctx.beginPath();
-      ctx.arc(this.x, this.y, this.r, 0, Math.PI * 2);
-      ctx.fillStyle = isDark()
-        ? `rgba(110,231,183,${this.alpha})`
-        : `rgba(16,185,129,${this.alpha})`;
-      ctx.fill();
-    }
-  }
-
-  const COUNT = Math.min(Math.floor((W * H) / 14000), 80);
-  for (let i = 0; i < COUNT; i++) particles.push(new Particle());
-
-  /* light theme: subtle lines; dark theme: brighter lines */
-  function drawLine(a, b) {
-    const dx = a.x - b.x, dy = a.y - b.y;
-    const dist = Math.sqrt(dx*dx + dy*dy);
-    const threshold = isDark() ? 160 : 130;
-    const t = 1 - dist / threshold;
-    if (t <= 0) return;
-    ctx.beginPath();
-    ctx.moveTo(a.x, a.y);
-    ctx.lineTo(b.x, b.y);
-    ctx.strokeStyle = isDark()
-      ? `rgba(110,231,183,${t * 0.22})`
-      : `rgba(16,185,129,${t * 0.14})`;
-    ctx.lineWidth = isDark() ? 0.8 : 0.6;
-    ctx.stroke();
-  }
-
-  let mx = W / 2, my = H / 2;
-  document.addEventListener('mousemove', e => {
-    mx = e.clientX; my = e.clientY;
-  }, { passive: true });
-
-  function loop() {
-    ctx.clearRect(0, 0, W, H);
-    particles.forEach(p => { p.update(); p.draw(); });
-    for (let i = 0; i < particles.length; i++) {
-      const conns = getConnections(particles[i]);
-      conns.forEach(c => drawLine(particles[i], c));
-    }
-    animId = requestAnimationFrame(loop);
-  }
-  loop();
-
-  /* pause when tab is hidden */
-  document.addEventListener('visibilitychange', () => {
-    if (document.hidden) { cancelAnimationFrame(animId); }
-    else { loop(); }
-  });
-})();
 </script>
 </body>
 </html>
