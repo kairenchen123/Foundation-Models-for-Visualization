@@ -91,7 +91,7 @@ A curated paper library for **Foundation Models for Visualization**, covering pa
 | 45 | **Chart-to-Text: A Large-Scale Benchmark for Chart Summarization** | 2022 | [Paper](https://aclanthology.org/2022.acl-long.277/) [Code](https://github.com/vis-nlp/Chart-to-text) |
 | 46 | **ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning** | 2022 | [Paper](https://aclanthology.org/2022.findings-acl.177/) [Code](https://github.com/vis-nlp/ChartQA) |
 | 47 | **InfographicVQA** | 2022 | [Paper](https://ieeexplore.ieee.org/document/9706887) [Code](https://www.docvqa.org/datasets/infographicvqa) |
-| 48 | **PlotQA: Reasoning over Scientific Plots** | 2020 | [Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Methani_PlotQA_Reasoning_over_Scientific_Plots_WACV_2020_paper.html) [Code](OCR模型：https://github.com/tesseract-ocr/tesseract\n数据集： bit.ly/PlotQA.) |
+| 48 | **PlotQA: Reasoning over Scientific Plots** | 2020 | [Paper](https://openaccess.thecvf.com/content_WACV_2020/html/Methani_PlotQA_Reasoning_over_Scientific_Plots_WACV_2020_paper.html) [Code](https://github.com/tesseract-ocr/tesseract) |
 | 49 | **STL-CQA: Structure-based Transformers with Localization and Encoding for Chart Question Answering** | 2020 | [Paper](https://aclanthology.org/2020.emnlp-main.264/) |
 | 50 | **DVQA: Understanding Data Visualizations via Question Answering** | 2018 | [Paper](https://openaccess.thecvf.com/content_cvpr_2018/html/Kafle_DVQA_Understanding_Data_CVPR_2018_paper.html) |
 
