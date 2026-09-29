@@ -1,5 +1,7 @@
 # Foundation Models for Visualization: A Survey and Empirical Study on Understanding, Generation, and Interaction
 
+[![Live Demo](https://img.shields.io/badge/Live%20Demo-GitHub%20Pages-blue?style=for-the-badge)](https://kairenchen123.github.io/Foundation-Models-for-Visualization/)
+
 A curated paper library for **Foundation Models for Visualization**, covering papers in three major areas:
 
 | Category | Description | Sub-tasks |
