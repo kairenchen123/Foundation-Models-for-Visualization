@@ -20,7 +20,7 @@ const papers = [
     "year": "2023",
     "keywords": "Literature Review\nHuman Perception\nVisualization Design",
     "abstract": "Selecting appropriate visual encodings is critical to designing effective visualization recommendation systems, yet few findings from graphical perception are typically applied within these systems. We observe two significant limitations in translating graphical perception knowledge into actionable visualization recommendation rules/constraints: inconsistent reporting of findings and a lack of shared data across studies. How can we translate the graphical perception literature into a knowledge base for visualization recommendation? We present a review of 59 papers that study user perception and performance across ten visual analysis tasks. Through this study, we contribute a JSON dataset that collates existing theoretical and experimental knowledge and summarizes key study outcomes in graphical perception. We illustrate how this dataset can inform automated encoding decisions with three representative visualization recommendation systems. Based on our findings, we highlight open challenges and opportunities for the community in collating graphical perception knowledge for a range of visualization recommendation scenarios.",
-    "code_link": "",
+    "code_link": "",           
     "doi": "https://dl.acm.org/doi/full/10.1145/3544548.3581349",
     "categories": [
       "Visualization Recommendation"
@@ -1924,4 +1924,491 @@ const papers = [
     ],
     "image": "figure/nvbench 2.0 Resolving ambiguity in text-to-visualization through stepwise reasoning.png"
   }
+,
+  {
+    "title": "VizAbility: Enhancing Chart Accessibility with LLM-based Conversational Interaction",
+    "image": "figure/VizAbility.png",
+    "year": "2024",
+    "keywords": "Chart Accessibility, Conversational Interaction, LLM, Visually Impaired, Multimodal, Natural Language Interface",
+    "abstract": "Traditional accessibility methods like alternative text and data tables typically underrepresent data visualization's full potential. Keyboard-based chart navigation has emerged as a potential solution, yet efficient data exploration remains challenging. We present VizAbility, a novel system that enriches chart content navigation with conversational interaction, enabling users to use natural language for querying visual data trends. VizAbility adapts to the user's navigation context for improved response accuracy and facilitates verbal command-based chart navigation. Furthermore, it can address queries for contextual information, designed to address the needs of visually impaired users. We designed a large language model (LLM)-based pipeline to address these user queries, leveraging chart data & encoding, user context, and external web knowledge. We conducted both qualitative and quantitative studies to evaluate VizAbility's multimodal approach. We discuss further opportunities based on the results, including improved benchmark testing, incorporation of vision models, and integration with visualization workflows.",
+    "code_link": "",
+    "doi": "https://dl.acm.org/doi/full/10.1145/3654777.3676414",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation"
+    ],
+    "authors": "Joshua Gorniak, Yoon Kim, Donglai Wei, Nam Wook Kim"
+  },
+  {
+    "title": "ChartAB: A Benchmark for Chart Grounding & Dense Alignment",
+    "image": "figure/ChartAB.png",
+    "year": "2025",
+    "keywords": "Chart Grounding, Vision-Language Models, Chart Alignment, Benchmark, Fine-grained Perception",
+    "abstract": "Charts play an important role in visualization, reasoning, data analysis, and the exchange of ideas among humans. However, existing vision-language models (VLMs) still lack accurate perception of details and struggle to extract fine-grained structures from charts. Such limitations in chart grounding also hinder their ability to compare multiple charts and reason over them. In this paper, we introduce a novel ChartAlign Benchmark (ChartAB) to provide a comprehensive evaluation of VLMs in chart grounding tasks, i.e., extracting tabular data, localizing visualization elements, and recognizing various attributes from charts of diverse types and complexities. We design a JSON template to facilitate the calculation of evaluation metrics specifically tailored for each grounding task. By incorporating a novel two-stage inference workflow, the benchmark can further evaluate VLMs capability to align and compare elements/attributes across two charts. Our analysis of evaluations on several recent VLMs reveals new insights into their perception biases, weaknesses, robustness, and hallucinations in chart understanding. These findings highlight the fine-grained discrepancies among VLMs in chart understanding tasks and point to specific skills that need to be strengthened in current models.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2510.26781",
+    "categories": [
+      "Low-level Information Perception"
+    ],
+    "authors": "Aniruddh Bansal, Davit Soselia, Dang Nguyen, Tianyi Zhou"
+  },
+  {
+    "title": "Color Bind: Exploring Color Perception in Text-to-Image Models",
+    "image": "figure/Color Bind.png",
+    "year": "2025",
+    "keywords": "Color Perception, Text-to-Image Generation, Image Editing, Diffusion Models, Multimodal",
+    "abstract": "Text-to-image generation has recently seen remarkable success, granting users with the ability to create high-quality images through the use of text. However, contemporary methods face challenges in capturing the precise semantics conveyed by complex multi-object prompts. Consequently, many works have sought to mitigate such semantic misalignments, typically via inference-time schemes that modify the attention layers of the denoising networks. However, prior work has mostly utilized coarse metrics, such as the cosine similarity between text and image CLIP embeddings, or human evaluations, which are challenging to conduct on a larger-scale. In this work, we perform a case study on colors -- a fundamental attribute commonly associated with objects in text prompts, which offer a rich test bed for rigorous evaluation. Our analysis reveals that pretrained models struggle to generate images that faithfully reflect multiple color attributes-far more so than with single-color prompts-and that neither inference-time techniques nor existing editing methods reliably resolve these semantic misalignments. Accordingly, we introduce a dedicated image editing technique, mitigating the issue of multi-object semantic alignment for prompts containing multiple colors. We demonstrate that our approach significantly boosts performance over a wide range of metrics, considering images generated by various text-to-image diffusion-based techniques.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2508.19791",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Shay Shomer-Chai, Wenxuan Peng, Bharath Hariharan, Hadar Averbuch-Elor"
+  },
+  {
+    "title": "ColorBench: Can VLMs See and Understand the Colorful World? A Comprehensive Benchmark for Color Perception, Reasoning, and Robustness",
+    "image": "figure/ColorBench.png",
+    "year": "2025",
+    "keywords": "Color Perception, Vision-Language Models, Benchmark, Reasoning, Robustness",
+    "abstract": "Color plays an important role in human perception and usually provides critical clues in visual reasoning. However, it is unclear whether and how vision-language models (VLMs) can perceive, understand, and leverage color as humans. This paper introduces ColorBench, an innovative benchmark meticulously crafted to assess the capabilities of VLMs in color understanding, including color perception, reasoning, and robustness. By curating a suite of diverse test scenarios, with grounding in real applications, ColorBench evaluates how these models perceive colors, infer meanings from color-based cues, and maintain consistent performance under varying color transformations. Through an extensive evaluation of 32 VLMs with varying language models and vision encoders, our paper reveals some undiscovered findings: (i) The scaling law still holds on ColorBench, while the language model plays a more important role than the vision encoder. (ii) However, the performance gaps across models are relatively small, indicating that color understanding has been largely neglected by existing VLMs. (iii) CoT reasoning improves color understanding accuracies and robustness, though they are vision-centric tasks. (iv) Color clues are indeed leveraged by VLMs on ColorBench but they can also mislead models in some tasks. These findings highlight the critical limitations of current VLMs and underscore the need to enhance color comprehension.",
+    "code_link": "https://github.com/tianyi-lab/ColorBench",
+    "doi": "https://arxiv.org/abs/2504.10514",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Yijun Liang, Ming Li, Chenrui Fan, Ziyue Li, Dang Nguyen, Kwesi Cobbina, Shweta Bhardwaj, Jiuhai Chen, Fuxiao Liu, Tianyi Zhou"
+  },
+  {
+    "title": "EncQA: Benchmarking Vision-Language Models on Visual Encodings for Charts",
+    "image": "figure/EncQA.png",
+    "year": "2025",
+    "keywords": "Chart Understanding, Visual Encoding, Benchmark, Vision-Language Models, Visual Reasoning",
+    "abstract": "Multimodal vision-language models (VLMs) continue to achieve ever-improving scores on chart understanding benchmarks. Yet, we find that this progress does not fully capture the breadth of visual reasoning capabilities essential for interpreting charts. We introduce EncQA, a novel benchmark informed by the visualization literature, designed to provide systematic coverage of visual encodings and analytic tasks that are crucial for chart understanding. EncQA provides 2,076 synthetic question-answer pairs, enabling balanced coverage of six visual encoding channels (position, length, area, color quantitative, color nominal, and shape) and eight tasks (find extrema, retrieve value, find anomaly, filter values, compute derived value exact, compute derived value relative, correlate values, and correlate values relative). Our evaluation of 9 state-of-the-art VLMs reveals that performance varies significantly across encodings within the same task, as well as across tasks. Contrary to expectations, we observe that performance does not improve with model size for many task-encoding pairs. Our results suggest that advancing chart understanding requires targeted strategies addressing specific visual reasoning gaps, rather than solely scaling up model or dataset size.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2508.04650",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Kushin Mukherjee, Donghao Ren, Dominik Moritz, Yannick Assogba"
+  },
+  {
+    "title": "Grid2Matrix: Revealing Digital Agnosia in Vision-Language Models",
+    "image": "figure/Grid2Matrix.png",
+    "year": "2026",
+    "keywords": "Vision-Language Models, Digital Agnosia, Benchmark, Fine-grained Perception, Chart Understanding",
+    "abstract": "Vision-Language Models (VLMs) excel on many multimodal reasoning benchmarks, but these evaluations often do not require an exhaustive readout of the image and can therefore obscure failures in faithfully capturing all visual details. We introduce Grid2Matrix (G2M), a controlled benchmark in which a model is shown a color grid and a color-to-number mapping, and must output the corresponding matrix. By varying grid size and the number of colors, G2M provides a simple way to increase visual complexity while minimizing semantic confounds. We find that VLMs exhibit a sharp early collapse in zero-shot end-to-end evaluation, failing on surprisingly small grids rather than degrading gradually as the task becomes denser. We probe the visual encoders of VLMs from two representative families and find that they preserve substantially more of the grid information than the corresponding end-to-end outputs. This suggests that the failure is not explained by visual encoding alone, but also reflects a gap between what remains recoverable from visual features and what is ultimately expressed in language. We term this gap Digital Agnosia.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2604.09687",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Yunkai Zhang, Linda Li, Yingxin Cui, Xiyuan Ruan, Zeyu Zheng, Kezhen Chen, Yi Zhang, Diji Yang"
+  },
+  {
+    "title": "ChartCheck: Explainable Fact-Checking over Real-World Chart Images",
+    "image": "figure/ChartCheck.png",
+    "year": "2024",
+    "keywords": "Fact-Checking, Chart Verification, Misinformation, Vision-Language Models, Explainable AI",
+    "abstract": "Whilst fact verification has attracted substantial interest in the natural language processing community, verifying misinforming statements against data visualizations such as charts has so far been overlooked. Charts are commonly used in the real-world to summarize and communicate key information, but they can also be easily misused to spread misinformation and promote certain agendas. In this paper, we introduce ChartCheck, a novel, large-scale dataset for explainable fact-checking against real-world charts, consisting of 1.7k charts and 10.5k human-written claims and explanations. We systematically evaluate ChartCheck using vision-language and chart-to-table models, and propose a baseline to the community. Finally, we study chart reasoning types and visual attributes that pose a challenge to these models.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2311.07453",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Mubashara Akhtar, Nikesh Subedi, Vivek Gupta, Sahar Tahmasebi, Oana Cocarascu, Elena Simperl"
+  },
+  {
+    "title": "Interactive Mascot: A Scene-Centric Interaction Grammar for Data Visualizations",
+    "image": "figure/Interactive Mascot.png",
+    "year": "2026",
+    "keywords": "Scene-centric Visualization, Interaction Grammar, Visualization Systems, Dependency Graph, Vega-Lite",
+    "abstract": "Scene-centric visualization systems expose semantic components, such as marks, encodings, layouts, and axes, as first-class objects that can be directly manipulated. Existing interaction abstractions, however, are largely based on event streams, signals, and data selections rather than semantic scene components. This mismatch makes interactions involving scene components less natural to specify and limits the expressive power of scene-centric visualization systems. We present Interactive Mascot, a scene-centric interaction grammar for data visualizations. Interactive Mascot extends scene-centric representations for static visualizations by modeling interactive behavior as information flow among four interaction components (trigger, responder, evaluator, and updater) and two forms of context (event context and state context). To realize these semantics, we introduce a dependency-graph execution model that systematically transforms interaction specifications into executable dependency graphs using reusable graph patterns associated with semantic visualization components.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2607.15523",
+    "categories": [
+      "Interaction Generation and Recommendation"
+    ],
+    "authors": "Liu, Chen, Wang, et al."
+  },
+  {
+    "title": "ChartNet: A Million-Scale, High-Quality Multimodal Dataset for Robust Chart Understanding",
+    "image": "figure/ChartNet.png",
+    "year": "2026",
+    "keywords": "Chart Understanding, Multimodal Dataset, Foundation Models, Data Synthesis, Chart Reasoning",
+    "abstract": "Understanding charts requires models to jointly reason over geometric visual patterns, structured numerical data, and natural language -- a capability where current vision-language models (VLMs) remain limited. We introduce ChartNet, a high-quality, million-scale multimodal dataset designed to advance chart interpretation and reasoning. ChartNet leverages a novel code-guided synthesis pipeline to generate 1.5 million diverse chart samples spanning 24 chart types and 6 plotting libraries. Each sample consists of five aligned components: plotting code, rendered chart image, data table, natural language summary, and question-answering with reasoning, providing fine-grained cross-modal alignment. To capture the full spectrum of chart comprehension, ChartNet additionally includes specialized subsets encompassing human annotated data, real-world data, safety, and grounding. Fine-tuning on ChartNet consistently improves results across benchmarks, demonstrating its utility as large-scale supervision for multimodal models.",
+    "code_link": "https://huggingface.co/datasets/ibm-granite/ChartNet",
+    "doi": "https://arxiv.org/abs/2603.27064",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ],
+    "authors": "L. Kondic, et al."
+  },
+  {
+    "title": "ChartHal: A Fine-grained Framework Evaluating Hallucination of Large Vision Language Models in Chart Understanding",
+    "image": "figure/ChartHal.png",
+    "year": "2025",
+    "keywords": "Chart Understanding, Hallucination, Vision-Language Models, Benchmark, Fine-grained Evaluation",
+    "abstract": "Large Vision-Language Models (LVLMs) have recently demonstrated remarkable progress, yet hallucination remains a critical barrier, particularly in chart understanding, which requires sophisticated perceptual and cognitive abilities as well as rigorous factual accuracy. While prior work has investigated hallucinations and chart comprehension independently, their intersection remains largely unexplored. To address this gap, we present ChartHal, a benchmark that features a fine-grained taxonomy of hallucination scenarios in chart understanding, along with a human-validated dataset of 1,062 samples. Our evaluation shows that state-of-the-art LVLMs suffer from severe hallucinations on ChartHal, including proprietary models such as GPT-5 and o4-mini, which achieve only 34.46% and 22.79% accuracy, respectively. Further analysis reveals that questions involving information absent from or contradictory to charts are especially likely to trigger hallucinations, underscoring the urgent need for more robust mitigation strategies.",
+    "code_link": "https://github.com/ymcui/ChartHal",
+    "doi": "https://arxiv.org/abs/2509.17481",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Yiming Cui, et al."
+  },
+  {
+    "title": "A History-Aware Visually Grounded Critic for Computer Use Agents",
+    "image": "figure/History-Aware Visually Grounded Critic.png",
+    "year": "2026",
+    "keywords": "Computer Use Agents, GUI, Critic Model, Visual Grounding, Reinforcement Learning",
+    "abstract": "Various test-time interventions for Computer Use Agents (CUAs), including critic models, have been developed to improve performance through pre-execution action evaluation in complex Graphical User Interface (GUI) environments. However, existing critics suffer from two key limitations: they (1) focus primarily on short-sighted decision loops (e.g., forgetting earlier actions) and (2) lack the visual grounding needed to detect flawed actions (e.g., clicking wrong UI elements). To address these, we introduce HiViG, a History-aware Visually Grounded test-time framework, built around a multimodal critic trained on real GUI trajectories to abstract past interactions into a compact record and to evaluate actions with visual grounding. At test time, HiViG integrates the critic into the policy decision loop to provide macro-action history, which summarizes the policy's completed achievements, and visually grounded critique, which verifies raw execution coordinates against the current screenshot to intercept errors before execution.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2606.11078",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Agentic Visual Analytics"
+    ],
+    "authors": "HiViG Research Team, et al."
+  },
+  {
+    "title": "DeepVIS: Bridging Natural Language and Data Visualization Through Step-wise Reasoning",
+    "image": "figure/DeepVIS.png",
+    "year": "2025",
+    "keywords": "Natural Language to Visualization, Chain-of-Thought, Interactive Interface, Visualization Authoring, NL2VIS",
+    "abstract": "Although data visualization is powerful for revealing patterns and communicating insights, creating effective visualizations requires familiarity with authoring tools and often disrupts the analysis flow. While large language models show promise for automatically converting analysis intent into visualizations, existing methods function as black boxes without transparent reasoning processes, which prevents users from understanding design rationales and refining suboptimal outputs. To bridge this gap, we propose integrating Chain-of-Thought (CoT) reasoning into the Natural Language to Visualization (NL2VIS) pipeline. First, we design a comprehensive CoT reasoning process for NL2VIS and develop an automatic pipeline to equip existing datasets with structured reasoning steps. Second, we introduce nvBench-CoT, a specialized dataset capturing detailed step-by-step reasoning from ambiguous natural language descriptions to finalized visualizations, which enables state-of-the-art performance when used for model fine-tuning. Third, we develop DeepVIS, an interactive visual interface that tightly integrates with the CoT reasoning process.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2508.01700",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "Y. Wu, et al."
+  },
+  {
+    "title": "ChartSync: A Benchmark for Visuo-Logical Cascading Chart Editing",
+    "image": "figure/ChartSync.png",
+    "year": "2026",
+    "keywords": "Chart Editing, Benchmark, Image Editing, Cascading Edit, Vision-Language Models",
+    "abstract": "Generative image editing models struggle with structured statistical charts when data modifications require geometric synchronization. We formalize this task as Visuo-Logical Cascading Editing (VLCE). However, existing methods remain confined to localized text substitutions and struggle with dependency-aware cascading updates. To systematically evaluate this capability, we introduce ChartSync, an expert-validated benchmark constructed via a programmatic rendering pipeline that guarantees deterministic visuo-logical coupling for the ground truth. ChartSync comprises 870 triplets across 9 chart categories and 4 task types, including 235 geometry-coupled VLCE instances that specifically test cascading text-to-geometry synchronization. We further evaluate these instances via a two-tier framework combining objective visual metrics with a vision-language model judge paradigm to assess low-level fidelity alongside multimodal comprehension and reasoning.",
+    "code_link": "https://github.com/kaka-yjk/ChartSyncCodebase",
+    "doi": "https://arxiv.org/abs/2607.10301",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "Y. K. Kaka, et al."
+  },
+  {
+    "title": "ArtChart: Faithful Artistic Chart Generation with Integrated Text Rendering",
+    "image": "figure/ArtChart.png",
+    "year": "2026",
+    "keywords": "Artistic Chart, Chart Generation, Text Rendering, ControlNet, Reinforcement Learning",
+    "abstract": "Artistic charts combine data visualization with expressive marks, textures, and typography, but they are difficult for image generators: an output is useful only when its stylization preserves chart geometry, exact in-image text, and the semantic binding between labels and marks. We introduce ArtChart, a framework for faithful artistic chart generation with integrated text rendering. Given a structured chart specification and an artistic prompt, ArtChart first renders a text-free grayscale layout that encodes the target chart geometry, then trains a chart-specific control module to preserve mathematical structure. To address the remaining text and layout errors, we further refine the generation policy through GRPO-based reinforcement learning with OCR-based text rewards, VLM-based layout rewards, and aesthetic rewards. A multi-expert distillation stage reconciles these objectives by distilling single-reward experts into one balanced generation policy.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2607.16060",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "ArtChart Research Team, et al."
+  },
+  {
+    "title": "Visual-ERM: Reward Modeling for Visual Equivalence",
+    "image": "figure/Visual-ERM.png",
+    "year": "2026",
+    "keywords": "Reward Model, Vision-to-Code, Chart-to-Code, Reinforcement Learning, Visual Fidelity",
+    "abstract": "Vision-to-code tasks require models to reconstruct structured visual inputs, such as charts, tables, and SVGs, into executable or structured representations with high visual fidelity. While recent Large Vision Language Models (LVLMs) achieve strong results via supervised fine-tuning, reinforcement learning remains challenging due to misaligned reward signals. Existing rewards either rely on textual rules or coarse visual embedding similarity, both of which fail to capture fine-grained visual discrepancies and are vulnerable to reward hacking. We propose Visual Equivalence Reward Model (Visual-ERM), a multimodal generative reward model that provides fine-grained, interpretable, and task-agnostic feedback to evaluate vision-to-code quality directly in the rendered visual space. Integrated into RL, Visual-ERM improves Qwen3-VL-8B-Instruct by +8.4 on chart-to-code and yields consistent gains on table and SVG parsing (+2.7, +4.1 on average).",
+    "code_link": "https://github.com/InternLM/Visual-ERM",
+    "doi": "https://arxiv.org/abs/2603.13224",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ],
+    "authors": "Visual-ERM Team, et al."
+  },
+  {
+    "title": "START: Spatial and Textual Learning for Chart Understanding",
+    "image": "figure/START.png",
+    "year": "2026",
+    "keywords": "Chart Understanding, Spatial Learning, Textual Learning, Multimodal, Vision-Language Models",
+    "abstract": "Chart understanding is crucial for deploying multimodal large language models (MLLMs) in real-world scenarios such as analyzing scientific papers and technical reports. Unlike natural images, charts pair a structured visual layout (spatial property) with an underlying data representation (textual property) -- grasping both is essential for precise, fine-grained chart reasoning. Motivated by this, we propose START, a novel framework that explicitly captures the dual spatial-textual nature of charts through dedicated learning strategies. Leveraging spatial and textual learning, START delivers consistent gains across model sizes and benchmarks over the base models and surpasses prior state-of-the-art by a clear margin. Code, data and models will be publicly available.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2512.07186",
+    "categories": [
+      "High-level Semantic Cognition",
+      "Low-level Information Perception",
+      "Code-level Visualization Reconstruction"
+    ],
+    "authors": "START Research Team, et al."
+  },
+  {
+    "title": "Hierarchical Process Reward Models are Symbolic Vision Learners",
+    "image": "figure/Hierarchical Process Reward Models.png",
+    "year": "2026",
+    "keywords": "Symbolic Vision, Process Reward Models, Chart Understanding, Hierarchical Reasoning, Diagram Parsing",
+    "abstract": "Symbolic computer vision represents diagrams through explicit logical rules and structured representations, enabling interpretable understanding in machine vision. This requires fundamentally different learning paradigms from pixel-based visual models. Symbolic visual learners parse diagrams into geometric primitives-points, lines, and shapes-whereas pixel-based learners operate on textures and colors. In this work, we propose Hierarchical Process Reward Models that act as symbolic vision learners, performing structured reasoning over visual inputs through a hierarchy of process-level rewards. Our approach bridges the gap between pixel-based and symbolic understanding, providing interpretable intermediate reasoning steps that align with how humans decompose and understand complex visual scenes including charts and diagrams.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2512.03126",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition",
+      "Code-level Visualization Reconstruction"
+    ],
+    "authors": "Hierarchical PRM Team, et al."
+  },
+  {
+    "title": "Chart-FR1: Visual Focus-Driven Fine-Grained Reasoning on Dense Charts",
+    "image": "figure/Chart-FR1.png",
+    "year": "2026",
+    "keywords": "Chart Reasoning, Fine-grained Perception, Reinforcement Learning, Focus-CoT, Information Density",
+    "abstract": "Multimodal large language models (MLLMs) have shown considerable potential in chart understanding and reasoning tasks. However, they still struggle with high information density (HID) charts characterized by multiple subplots, legends, and dense annotations due to three major challenges: (1) limited fine-grained perception results in the omission of critical visual cues; (2) redundant or noisy visual information undermines the performance of multimodal reasoning; (3) lack of adaptive deep reasoning relative to the amount of visual information. To tackle these challenges, we present a novel focus-driven fine-grained chart reasoning model, Chart-FR1, to improve perception, focusing efficiency, and adaptive deep reasoning on HID charts. Specifically, we propose Focus-CoT, a visual focusing chain-of-thought that enhances fine-grained perception by explicitly linking reasoning steps to key visual cues, such as local image regions and OCR signals.",
+    "code_link": "https://github.com/phkhub/Chart-FR1",
+    "doi": "https://arxiv.org/abs/2605.01882",
+    "categories": [
+      "Low-level Information Perception",
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Chart-FR1 Team, et al."
+  },
+  {
+    "title": "Synthesizing Natural Language to Visualization (NL2VIS) Benchmarks From NL2SQL Benchmarks",
+    "image": "figure/Synthesizing NL2VIS Benchmarks.png",
+    "year": "2021",
+    "keywords": "NL2VIS, NL2SQL, Benchmark Synthesis, Visualization Recommendation, Cross-Domain",
+    "abstract": "NL2VIS translates natural language queries into visualization specifications, enabling non-expert users to explore data visually. However, the lack of large-scale, high-quality NL2VIS benchmarks has been a major bottleneck for training and evaluating data-driven NL2VIS models. In this paper, we propose a NL2VIS synthesizer (NL2SQL-to-NL2VIS) that synthesizes NL2VIS benchmarks by piggybacking NL2SQL benchmarks. The intuition is based on the semantic connection between SQL queries and VIS queries: SQL queries specify what data is needed and VIS queries additionally need to specify how to visualize. By leveraging existing well-established NL2SQL benchmarks, our synthesizer generates a large-scale, high-quality NL2VIS benchmark (nvBench) that supports cross-domain NL2VIS task.",
+    "code_link": "https://github.com/TsinghuaDatabaseGroup/nvBench",
+    "doi": "https://dl.acm.org/doi/10.1145/3448016.3457261",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "Yuyu Luo, Nan Tang, Guoliang Li, Chengliang Chai, Wenbo Li, Xiaoyong Qin"
+  },
+  {
+    "title": "VisEval: A Benchmark for Data Visualization in the Era of Large Language Models",
+    "image": "figure/VisEval.png",
+    "year": "2024",
+    "keywords": "Benchmark, Visualization Generation, Large Language Models, NL2VIS, Evaluation Methodology",
+    "abstract": "Translating natural language to visualization (NL2VIS) has shown great promise for visual data analysis, but it remains a challenging task that requires multiple low-level implementations, such as natural language processing and visualization design. Recent advancements in pre-trained large language models (LLMs) are opening new avenues for generating visualizations from natural language. However, the lack of a comprehensive and reliable benchmark hinders our understanding of LLMs' capabilities in visualization generation. In this paper, we address this gap by proposing a new NL2VIS benchmark called VisEval. Firstly, we introduce a high-quality and large-scale dataset. This dataset includes 2,524 representative queries covering 146 databases, paired with accurately labeled ground truths. Secondly, we advocate for a comprehensive automated evaluation methodology covering multiple dimensions, including validity, legality, and readability.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2407.00981",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "Y. Wu, et al."
+  },
+  {
+    "title": "Agentic Visualization: Extracting Agent-based Design Patterns from Visualization Systems",
+    "image": "figure/Agentic Visualization.png",
+    "year": "2025",
+    "keywords": "Agentic Visualization, Design Patterns, LLM Agents, Visual Analytics, Human-AI Collaboration",
+    "abstract": "Autonomous agents powered by Large Language Models are transforming AI, creating an imperative for the visualization field to embrace agentic frameworks. However, our field's focus on a human in the sensemaking loop raises critical questions about autonomy, delegation, and coordination for such agentic visualization that preserve human agency while amplifying analytical capabilities. This paper addresses these questions by reinterpreting existing visualization systems with semi-automated or fully automatic AI components through an agentic lens. Based on this analysis, we extract a collection of design patterns for agentic visualization, including agentic roles, communication and coordination. These patterns provide a foundation for future agentic visualization systems that effectively harness AI agents while maintaining human insight and control.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2505.19101",
+    "categories": [
+      "Agentic Visual Analytics",
+      "Interaction Generation and Recommendation"
+    ],
+    "authors": "V. Dhanoa, A. Wolter, G. M. Leon, H. Schulz, N. Elmqvist"
+  },
+  {
+    "title": "Formalizing Visualization Design Knowledge as Constraints: Actionable and Extensible Models in Draco",
+    "image": "figure/Formalizing Visualization Design Knowledge in Draco.png",
+    "year": "2018",
+    "keywords": "Visualization Design, Constraints, Draco, Answer Set Programming, Knowledge Representation",
+    "abstract": "There exists a gap between visualization design guidelines and their application in visualization tools. While empirical studies can provide design guidance, we lack a formal framework for representing design knowledge, integrating results across studies, and applying this knowledge in automated design tools that promote effective encodings and facilitate visual exploration. We propose modeling visualization design knowledge as a collection of constraints, in conjunction with a method to learn weights for soft constraints from experimental data. Using constraints, we can take theoretical design knowledge and express it in a concrete, extensible, and testable form: the resulting models can recommend visualization designs and can easily be augmented with additional constraints or updated weights. We implement our approach in Draco, a constraint-based system based on Answer Set Programming (ASP).",
+    "code_link": "",
+    "doi": "https://doi.org/10.1109/TVCG.2018.2865240",
+    "categories": [
+      "Visualization Recommendation"
+    ],
+    "authors": "Dominik Moritz, Chenglong Wang, Gregory L. Nelson, Halden Lin, Adam M. Smith, Bill Howe, Jeffrey Heer"
+  },
+  {
+    "title": "OpenCQA: Open-ended Question Answering with Charts",
+    "image": "figure/OpenCQA.png",
+    "year": "2022",
+    "keywords": "Chart Question Answering, Open-ended QA, Visualization, Multimodal Reasoning, Benchmark",
+    "abstract": "Charts are very popular to analyze data and convey important insights. People often analyze visualizations to answer open-ended questions that require explanatory answers. Answering such questions are often difficult and time-consuming as it requires a lot of cognitive and perceptual efforts. To address this challenge, we introduce a new task called OpenCQA, where the goal is to answer an open-ended question about a chart with explanatory text. We propose a new dataset and evaluation metric, and benchmark several baseline models for the task. Our experimental results highlight the challenges of generating explanatory answers for chart question answering, providing insights into future research directions.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2210.06628",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Shankar Kantharaj, Xuan Long Do, Rixie Tiffany Ko Leong, Jia Qing Tan, Enamul Hoque, Shafiq Joty"
+  },
+  {
+    "title": "LEAF-QA: Locate, Encode & Attend for Figure Question Answering",
+    "image": "figure/LEAF-QA.png",
+    "year": "2020",
+    "keywords": "Figure QA, Multimodal Learning, Attention, Benchmark, Chart Understanding",
+    "abstract": "We introduce LEAF-QA, a comprehensive dataset of 250,000 densely annotated figures/charts, constructed from real-world open data sources, along with ~2 million question-answer (QA) pairs querying the structure and semantics of these charts. LEAF-QA highlights the problem of multimodal QA, which is notably different from conventional visual QA (VQA), and has recently gained interest in the research community. Each QA pair is accompanied by an attention map that localizes the relevant chart elements used by humans to arrive at the answer. We also propose a novel model, LEAF-Net, which integrates text, image and numerical context to answer questions about charts and figures. LEAF-Net can effectively capture the structural semantics of the charts through a novel co-attention-based mechanism.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/1907.12861",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Ritwick Chaudhry, Sumit Shekhar, Utkarsh Gupta, Pranav Maneriker, Prann Bansal, Ajay Joshi"
+  },
+  {
+    "title": "FigureQA: An Annotated Figure Dataset for Visual Reasoning",
+    "image": "figure/FigureQA.png",
+    "year": "2018",
+    "keywords": "Visual Reasoning, Figure Dataset, Question Answering, Synthetic Data, Multimodal Learning",
+    "abstract": "We introduce FigureQA, a visual reasoning corpus of over one million question-answer pairs grounded in over 100,000 images. The images are synthetic, scientific-style figures from five classes: line plots, dot-line plots, vertical and horizontal bar graphs, and pie charts. We formulate our reasoning task by generating questions from 15 templates; questions concern various relationships between plot elements and examine characteristics like the maximum, the minimum, area-under-the-curve, smoothness, and intersection. To resolve, such questions often require reference to multiple plot elements and synthesis of information distributed spatially throughout a figure. To facilitate the training of machine learning systems, the corpus also includes side data that can be used to formulate auxiliary objectives.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/1710.07300",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "Samira Ebrahimi Kahou, Vincent Michalski, Adam Atkinson, Akos Kadar, Adam Trischler, Yoshua Bengio"
+  },
+  {
+    "title": "Human-Data Interaction, Exploration, and Visualization in the AI Era: Challenges and Opportunities",
+    "image": "figure/Human-Data Interaction.png",
+    "year": "2026",
+    "keywords": "Human-Data Interaction, Visual Analytics, AI Era, Foundation Models, Human-Centered AI",
+    "abstract": "The rapid advancement of AI is transforming human-centered systems, with profound implications for human-AI interaction, human-data interaction, and visual analytics. In the AI era, data analysis increasingly involves large-scale, heterogeneous, and multimodal data that is predominantly unstructured, as well as foundation models such as LLMs and VLMs, which introduce additional uncertainty into analytical processes. These shifts expose persistent challenges for human-data interactive systems, including perceptually misaligned latency, scalability constraints, limitations of existing interaction and exploration paradigms, and growing uncertainty regarding the reliability and interpretability of AI-generated insights. Responding to these challenges requires moving beyond conventional efficiency and scalability metrics, redefining the roles of humans and machines in analytical workflows, and incorporating cognitive, perceptual, and design principles into every level of the human-data interaction stack.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2603.05542",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Agentic Visual Analytics"
+    ],
+    "authors": "Human-Data Interaction Research Team, et al."
+  },
+  {
+    "title": "Visualization Generation With Large Language Models: An Evaluation",
+    "image": "figure/Visualization Generation With LLMs.png",
+    "year": "2024",
+    "keywords": "Visualization Generation, Large Language Models, NL2VIS, Evaluation, Chart Creation",
+    "abstract": "Recent advances in large language models (LLMs) have opened new possibilities for generating data visualizations from natural language. However, evaluating the effectiveness of LLM-generated visualizations remains challenging. In this work, we systematically evaluate LLMs for visualization generation tasks, examining their capability to produce accurate, readable, and aesthetically pleasing visualizations. We compare multiple state-of-the-art LLMs across various visualization types and complexity levels, analyzing their strengths and weaknesses. Our findings reveal key insights about the current state of LLM-based visualization generation and highlight areas for improvement.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2404.17691",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "Visualization Generation Research Team, et al."
+  },
+  {
+    "title": "VisCritic: Visual State Comparison as Process Reward for GUI Agents",
+    "image": "figure/VisCritic.png",
+    "year": "2026",
+    "keywords": "GUI Agents, Process Reward, Visual State Comparison, Reinforcement Learning, Vision-Language Models",
+    "abstract": "GUI agents powered by vision-language models show strong potential for automating digital tasks, yet frequently fail in long-horizon scenarios due to the absence of step-level verification. Existing process reward models verify actions through textual reasoning alone, missing the visual nature of GUI state changes. We introduce VisCritic, a visual process reward framework that verifies agent actions by directly comparing pre-action and post-action screenshots in visual feature space. VisCritic employs a Siamese vision transformer to extract change-aware representations, coupled with an Action-Aware Critic Head that jointly evaluates action success, task progress, and error type. A critic-training data construction pipeline generates weakly supervised samples from existing trajectories without additional human labels for critic training.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2606.24525",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Agentic Visual Analytics"
+    ],
+    "authors": "Jiachen Qian, et al."
+  },
+  {
+    "title": "PIRA-Bench: A Transition from Reactive GUI Agents to GUI-Based Proactive Intent Recommendation Agents",
+    "image": "figure/PIRA-Bench.png",
+    "year": "2026",
+    "keywords": "GUI Agents, Proactive Recommendation, Benchmark, Multimodal, Intent Recognition",
+    "abstract": "Current Graphical User Interface (GUI) agents operate primarily under a reactive paradigm: a user must provide an explicit instruction for the agent to execute a task. However, an intelligent AI assistant should be proactive, which is capable of anticipating user intentions directly from continuous visual inputs, such as mobile or desktop screenshots, and offering timely recommendations without explicit user prompting. Transitioning to this proactive paradigm presents significant challenges. Real-world screen activity is rarely linear; it consists of long-horizon trajectories fraught with noisy browsing, meaningless actions, and multithreaded task-switching. To address this gap, we introduce PIRA-Bench (Proactive Intent Recommendation Agent Benchmark), a novel benchmark for evaluating multimodal large language models (MLLMs) on continuous, weakly-supervised visual inputs.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2603.08013",
+    "categories": [
+      "Multimodal Interaction Perception",
+      "Interaction Generation and Recommendation",
+      "Agentic Visual Analytics"
+    ],
+    "authors": "PIRA-Bench Team, et al."
+  },
+  {
+    "title": "Aligned Multi-View Scripts for Universal Chart-to-Code Generation",
+    "image": "figure/Aligned Multi-View Scripts.png",
+    "year": "2026",
+    "keywords": "Chart-to-Code, Multi-language, Cross-Modal, Python R LaTeX, Vision-Language Models",
+    "abstract": "Chart-to-code generation converts a chart image into an executable plotting script, enabling faithful reproduction and editable visualizations. Existing methods are largely Python-centric, limiting practical use and overlooking a critical source of supervision: the same chart can be expressed by semantically equivalent scripts in different plotting languages. To fill this gap, we introduce Chart2NCode, a dataset of 176K charts paired with aligned scripts in Python, R, and LaTeX that render visually equivalent outputs, constructed via a metadata-to-template pipeline with rendering verification and human quality checks. Building on a LLaVA-style architecture, we further propose CharLuMA, a parameter-efficient adaptation module that augments the multimodal projector with a language-conditioned mixture of low-rank subspaces.",
+    "code_link": "https://github.com/Zhihan72/CharLuMA",
+    "doi": "https://arxiv.org/abs/2604.24559",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ],
+    "authors": "Zhihan Zhang, Lizi Liao"
+  },
+  {
+    "title": "V-RECS: a NL2Vis Recommender for Chart Generation with Explanations, Captioning, and Suggestions",
+    "image": "figure/V-RECS.png",
+    "year": "2026",
+    "keywords": "NL2Vis, Visualization Recommendation, Explanations, LLM, Visualization Narrative",
+    "abstract": "Following the growing use of generative AI in NL2Vis applications, we present V-RECS, the first LLM-based Visual Recommender augmented with explanations (E), captioning (C), and suggestions (S) to support further data exploration. V-RECS' visualization narratives facilitate both response verification and data exploration by non-expert users. At inference time, the fine-tuned model receives as input a (data, query) pair and recommends a visualization along with a narrative composed by an explanation, a caption, and suggestions for further explorations. V-RECS is trained on a low-cost dataset synthesized from existing NL2Vis corpora, making it both effective and economical.",
+    "code_link": "",
+    "doi": "https://doi.org/10.1145/3811427.3811457",
+    "categories": [
+      "Visualization Recommendation",
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "V-RECS Research Team, et al."
+  },
+  {
+    "title": "Dashboard2Code: Evaluating Multimodal Models on Reconstructing Interactive Dashboards",
+    "image": "figure/Dashboard2Code.png",
+    "year": "2026",
+    "keywords": "Dashboard Reconstruction, Multimodal Models, Plotly Dash, Benchmark, Interactive Visualization",
+    "abstract": "Automatic data visualization generation has advanced rapidly with multi-modal large language models, yet existing efforts largely focus on static charts and overlook the interactive dashboards commonly used for real-world data exploration. We introduce Dashboard2Code, a novel task that requires a model to proactively explore an interactive dashboard, acquire and integrate feedback from its own interactions (e.g., clicking and filtering), and generate code that reproduces the target dashboard. To support comprehensive evaluation, we present DashboardMimic, the first Plotly+Dash benchmark for Dashboard2Code, comprising 180 carefully designed and manually verified dashboard-code pairs spanning three difficulty levels and covering eight common real-world interaction patterns. We further propose an automated evaluation framework tailored to dashboards.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2607.04727",
+    "categories": [
+      "Code-level Visualization Reconstruction",
+      "Multi-view and Narrative Visualization Composition",
+      "Multimodal Interaction Perception",
+      "Agentic Visual Analytics"
+    ],
+    "authors": "Dashboard2Code Team, et al."
+  },
+  {
+    "title": "ChartEditor: A Reinforcement Learning Framework for Robust Chart Editing",
+    "image": "figure/ChartEditor.png",
+    "year": "2026",
+    "keywords": "Chart Editing, Reinforcement Learning, Rendering Reward, Visualization Authoring, Benchmark",
+    "abstract": "Chart editing reduces manual effort in visualization design. Typical benchmarks limited in data diversity and assume access to complete chart code, which is seldom in real-world scenarios. To address this gap, we present ChartEditVista, a comprehensive benchmark consisting of 7,964 samples spanning 31 chart categories. It encompasses diverse editing instructions and covers nearly all editable chart elements. The inputs in ChartEditVista include only the original chart image and natural language editing instructions, without the original chart codes. ChartEditVista is generated through a fully automated pipeline that produces, edits, and verifies charts, ensuring high-quality chart editing data. Besides, we introduce two novel fine-grained, rule-based evaluation metrics: the layout metric, which evaluates the position, size and color of graphical components; and the text metric, which jointly assesses textual content and font styling. Building on top of ChartEditVista, we present ChartEditor, a model trained using a reinforcement learning framework that incorporates a novel rendering reward to simultaneously enforce code executability and visual fidelity.",
+    "code_link": "",
+    "doi": "https://doi.org/10.1609/aaai.v40i24.39107",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "L. Chen, Y. Xu, J. Ma, Y. Liu, D. Yang, L. Zhang, W. Wang, Q. Jin"
+  },
+  {
+    "title": "Flint: A Semantics-Driven Data Visualization Intermediate Language",
+    "image": "figure/Flint.png",
+    "year": "2026",
+    "keywords": "Intermediate Language, Visualization Authoring, Semantics-driven, Vega-Lite, ECharts, Chart.js",
+    "abstract": "We present Flint, an intermediate language that enables authors to create high-quality visualizations from concise, semantics-driven specifications without explicitly configuring low-level parameters such as scales, axes, and formatting. Unlike prior systems that infer default configurations from surface-level data representations, often producing brittle choices, Flint introduces a hierarchical data semantic model that allows users to specify the meanings of data fields structurally and helps the compiler derive appropriate visualization configurations. From a concise specification, the system generates and optimizes library-agnostic visualization configurations and translates them into complete, executable specifications for multiple target grammars, including Vega-Lite, Apache ECharts, and Chart.js. We demonstrate that Flint simplifies the authoring process without compromising on visual quality, and it is an effective intermediate language for both humans and AI agents to create visualizations.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2607.20775",
+    "categories": [
+      "Code-level Visualization Reconstruction"
+    ],
+    "authors": "Yunhai Wang, Kecheng Lu, Junhao Chen, Alper Sarikaya, Chenglong Wang"
+  },
+  {
+    "title": "Learning More from Less: Exploiting Counterfactuals for Data-Efficient Chart Understanding",
+    "image": "figure/Learning More from Less.png",
+    "year": "2026",
+    "keywords": "Chart Understanding, Counterfactual Reasoning, Data Efficiency, Multimodal Preference Optimization, Vision-Language Models",
+    "abstract": "Vision-Language Models (VLMs) have demonstrated remarkable progress in chart understanding, largely driven by supervised fine-tuning (SFT) on increasingly large synthetic datasets. However, scaling SFT data alone is inefficient and overlooks a key property of charts: charts are programmatically generated visual artifacts, where small, code-controlled visual changes can induce drastic shifts in semantics and correct answers. Learning this counterfactual sensitivity requires VLMs to discriminate fine-grained visual differences, yet standard SFT treats training instances independently and provides limited supervision to enforce this behavior. To address this, we introduce ChartCF, a data-efficient training framework designed to enhance counterfactual sensitivity. ChartCF consists of: (1) a counterfactual data synthesis pipeline via code modification, (2) a chart similarity-based data selection strategy that filters overly difficult samples for improved training efficiency, and (3) multimodal preference optimization across both textual and visual modalities.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2605.10855",
+    "categories": [
+      "High-level Semantic Cognition"
+    ],
+    "authors": "ChartCF Research Team, et al."
+  },
+  {
+    "title": "RAGE-Vis: A Relation-Aware Generative Editing Interface for Natural Language-Based Chart Editing",
+    "image": "figure/RAGE-Vis.png",
+    "year": "2026",
+    "keywords": "Chart Editing, Generative Interface, Natural Language, Cross-component Editing, Visualization Authoring",
+    "abstract": "Natural language offers an easy way for users to express chart editing intents, which are often composite and cross-component (e.g., adjusting style, extending categories, highlighting values). However, existing methods typically map instructions to a single operation or widget, limiting their ability to handle high-level requests and often producing locally plausible but globally inconsistent results due to a lack of awareness of relationships between chart components. To address these challenges, we introduce RAGE-Vis, a Relation-Aware Generative Editing interface for natural language-based chart editing. The system supports bitmap chart images as input and converts them into an editable parameterized intermediate representation. Instead of mapping instructions to a single edit or widget, RAGE-Vis parses composite intents, identifies targets and scopes, and generates hierarchical editing panels for underspecified requests, enabling users to adjust both global settings and local parameters.",
+    "code_link": "",
+    "doi": "https://arxiv.org/abs/2608.11581",
+    "categories": [
+      "Conditional Visualization Synthesis"
+    ],
+    "authors": "RAGE-Vis Research Team, et al."
+  }
+
 ];

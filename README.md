@@ -8,7 +8,7 @@ A curated paper library for **Foundation Models for Visualization**, covering pa
 | **Visualization Generation** | Generating new visualizations or modifying existing ones based on data, intent, or constraints. | Visualization Recommendation, Conditional Visualization Synthesis, Multi-view and Narrative Visualization Composition |
 | **Visualization Interaction** | Enabling users to interact with and explore visualizations through natural and multimodal interfaces. | Multimodal Interaction Perception, Interaction Generation and Recommendation, Agentic Visual Analytics |
 
-> **Total papers: 145**
+> **Total papers: 144**
 
 ## Visualization Understanding
 
